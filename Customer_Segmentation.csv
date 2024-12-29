@@ -1,0 +1,2001 @@
+CustomerID,Age,Gender,AnnualIncome,SpendingScore,Region,Tenure,ProductsBought,AveragePurchaseValue,PaymentMethod
+1,56,Male,69812,88,North,6,7,58.57,Debit Card
+2,69,Female,70500,26,South,3,18,379.6,Debit Card
+3,46,Female,99151,17,South,2,8,469.9,Digital Wallet
+4,32,Male,78643,71,West,2,6,345.74,Digital Wallet
+5,60,Female,64900,13,North,9,7,247.56,Cash
+6,25,Female,62946,69,West,5,10,70.2,Cash
+7,38,Female,27851,26,East,7,11,464.05,Debit Card
+8,56,Male,36288,49,East,5,13,261.63,Debit Card
+9,36,Female,92692,67,East,7,9,63.05,Debit Card
+10,40,Female,87580,7,South,4,7,360.42,Cash
+11,28,Male,27368,58,South,8,9,266.83,Debit Card
+12,28,Male,105436,49,South,10,13,105.96,Cash
+13,41,Female,116136,53,North,10,3,146.42,Debit Card
+14,53,Female,66403,65,West,7,3,79.02,Credit Card
+15,57,Male,111170,62,South,10,1,308.43,Credit Card
+16,41,Male,29168,17,West,5,2,329.91,Debit Card
+17,20,Female,106497,43,West,6,3,277.58,Credit Card
+18,39,Female,69879,25,West,5,15,417.7,Cash
+19,19,Female,79871,3,North,7,6,437.45,Digital Wallet
+20,41,Female,129632,79,North,2,13,327.03,Credit Card
+21,61,Male,131623,29,East,5,1,55.74,Digital Wallet
+22,47,Female,109388,32,East,10,19,362.85,Credit Card
+23,55,Female,118646,26,West,3,1,238.1,Cash
+24,19,Male,52174,16,East,9,2,304.5,Credit Card
+25,38,Female,119751,25,West,6,15,342.09,Credit Card
+26,50,Male,112491,54,North,10,14,207.61,Debit Card
+27,29,Female,26581,28,North,3,19,462.69,Digital Wallet
+28,39,Female,130155,73,North,7,11,110.29,Digital Wallet
+29,61,Male,91853,56,South,4,15,352.18,Cash
+30,42,Male,84046,65,West,3,6,51.96,Cash
+31,66,Female,69678,93,North,8,9,466.09,Digital Wallet
+32,44,Female,128392,86,West,4,5,100.63,Debit Card
+33,59,Female,131250,80,East,1,2,92.7,Debit Card
+34,45,Male,46649,41,East,6,6,199.85,Digital Wallet
+35,33,Female,147795,51,North,10,18,218.1,Credit Card
+36,32,Male,108668,71,West,1,19,146.44,Digital Wallet
+37,64,Male,102325,78,North,5,9,313.3,Credit Card
+38,68,Female,34567,29,East,7,6,249.31,Digital Wallet
+39,61,Male,100404,83,North,6,14,65.38,Credit Card
+40,69,Female,109906,19,West,2,13,193.84,Debit Card
+41,20,Female,128069,66,East,4,11,414.69,Digital Wallet
+42,54,Female,116019,41,South,2,12,360.37,Cash
+43,68,Female,81944,45,East,1,19,376.19,Credit Card
+44,24,Female,138428,15,South,3,19,364.15,Debit Card
+45,38,Male,98002,3,North,3,19,189.94,Cash
+46,26,Male,48803,11,North,7,13,94.85,Debit Card
+47,56,Female,38230,53,West,1,14,172.61,Credit Card
+48,35,Female,37862,46,South,9,18,424.3,Digital Wallet
+49,21,Male,63355,30,North,6,12,491.21,Debit Card
+50,42,Male,51259,57,South,4,4,272.23,Digital Wallet
+51,31,Male,119075,18,North,3,10,54.37,Digital Wallet
+52,67,Male,107445,51,East,3,17,113.02,Debit Card
+53,26,Female,50795,48,North,2,4,194.94,Debit Card
+54,43,Female,134604,66,West,2,12,310.36,Debit Card
+55,19,Male,28770,96,East,10,13,83.79,Digital Wallet
+56,37,Female,31093,8,West,5,4,474.51,Cash
+57,45,Male,66571,22,East,9,10,214.29,Credit Card
+58,64,Female,20193,6,South,2,3,460.66,Cash
+59,24,Male,120311,76,West,2,15,401.23,Digital Wallet
+60,61,Female,37569,57,North,6,2,389.95,Debit Card
+61,25,Male,137082,36,South,10,17,323.02,Debit Card
+62,64,Male,31190,79,North,2,6,332.05,Credit Card
+63,52,Female,82824,92,East,4,8,337.1,Credit Card
+64,31,Male,62752,57,East,6,3,332.92,Cash
+65,34,Female,52327,49,North,5,18,299.18,Cash
+66,53,Female,62070,45,North,1,1,493.89,Credit Card
+67,67,Male,105925,82,South,6,16,379.53,Digital Wallet
+68,57,Female,60197,66,North,1,7,399.63,Cash
+69,21,Female,22261,77,West,3,3,442.61,Debit Card
+70,19,Female,138424,45,West,10,4,147.04,Debit Card
+71,23,Female,113905,79,North,5,9,87.71,Digital Wallet
+72,59,Female,46512,20,West,10,5,267.3,Credit Card
+73,21,Male,26716,64,North,5,19,281.34,Cash
+74,46,Female,106795,93,South,10,15,423.13,Debit Card
+75,35,Female,48933,93,West,6,8,249.7,Credit Card
+76,43,Female,127225,67,West,10,6,306.88,Cash
+77,61,Female,24378,83,North,8,18,287.18,Digital Wallet
+78,51,Female,60583,3,West,5,19,67.19,Debit Card
+79,27,Male,132082,54,East,1,15,326.85,Digital Wallet
+80,53,Female,105371,78,South,5,7,422.62,Digital Wallet
+81,31,Male,49033,64,South,3,10,120.88,Digital Wallet
+82,48,Male,44000,40,West,4,6,317.45,Cash
+83,65,Male,131032,59,West,8,14,317.12,Digital Wallet
+84,32,Male,95868,55,East,7,17,123.88,Cash
+85,25,Female,62604,62,East,5,9,105.56,Cash
+86,31,Male,88336,4,West,2,19,491.02,Digital Wallet
+87,40,Male,115074,60,West,6,5,227.17,Digital Wallet
+88,57,Female,115655,75,East,6,7,152.34,Credit Card
+89,38,Female,93869,95,North,10,19,127.1,Debit Card
+90,33,Female,25410,96,East,10,7,350.42,Credit Card
+91,62,Male,103375,91,North,6,2,324.25,Debit Card
+92,35,Female,76044,30,South,9,16,339.6,Debit Card
+93,64,Female,83315,2,South,8,13,89.6,Credit Card
+94,41,Male,116055,62,East,8,8,452.09,Credit Card
+95,43,Female,91344,49,North,1,6,225.17,Debit Card
+96,42,Female,26796,9,East,5,6,191.02,Debit Card
+97,62,Female,106716,92,East,7,9,258.06,Debit Card
+98,58,Female,74245,31,North,6,4,225.53,Cash
+99,46,Male,63056,98,East,5,11,438.61,Debit Card
+100,32,Female,37709,61,South,8,5,468.17,Digital Wallet
+101,62,Female,139664,79,West,3,17,186.55,Digital Wallet
+102,18,Male,78557,48,West,6,7,438.77,Digital Wallet
+103,42,Female,37543,25,East,5,15,401.69,Credit Card
+104,24,Male,57418,36,North,8,15,468.86,Credit Card
+105,26,Female,114611,8,North,4,14,160.59,Credit Card
+106,41,Male,123291,73,South,8,13,309.63,Debit Card
+107,18,Male,133504,58,North,10,11,173.55,Digital Wallet
+108,61,Male,123001,45,North,2,13,420.84,Debit Card
+109,25,Male,116038,62,South,9,9,52.4,Cash
+110,41,Female,36724,39,East,9,10,304.17,Cash
+111,28,Male,23828,96,West,10,4,202.64,Credit Card
+112,68,Female,136656,58,South,10,17,195.21,Cash
+113,34,Male,37087,81,East,6,14,340.21,Digital Wallet
+114,25,Male,32605,99,South,4,18,433.17,Cash
+115,52,Male,51337,83,East,4,11,324.14,Credit Card
+116,52,Female,25482,64,South,6,16,433.93,Debit Card
+117,50,Male,85333,44,East,5,1,169.07,Cash
+118,22,Female,112541,29,South,6,7,283.78,Digital Wallet
+119,59,Female,108296,59,East,7,10,252.74,Digital Wallet
+120,56,Female,70952,71,South,7,9,55.24,Digital Wallet
+121,58,Female,25463,92,West,9,3,300.57,Debit Card
+122,45,Female,132164,9,West,8,14,347.69,Digital Wallet
+123,24,Female,90448,92,North,6,15,316.36,Credit Card
+124,26,Female,24648,6,East,6,2,381.33,Credit Card
+125,25,Female,53623,29,South,5,14,307.1,Digital Wallet
+126,29,Female,79156,58,East,1,16,80.04,Cash
+127,51,Male,55634,17,West,9,7,102.4,Digital Wallet
+128,50,Male,64602,16,East,9,4,318.41,Credit Card
+129,65,Male,134598,87,South,9,18,173.74,Credit Card
+130,40,Male,69334,95,East,8,5,85.84,Credit Card
+131,41,Male,88648,3,South,10,6,243.32,Cash
+132,54,Female,42054,21,West,3,7,299.45,Cash
+133,52,Female,90028,64,West,1,15,197.94,Cash
+134,61,Female,42207,90,West,8,1,374.2,Credit Card
+135,57,Female,100650,36,North,7,4,339.7,Debit Card
+136,39,Female,119821,86,West,5,1,199.77,Digital Wallet
+137,44,Female,101554,62,East,10,11,389.69,Digital Wallet
+138,52,Female,41386,42,North,7,18,341.91,Credit Card
+139,18,Male,103276,76,West,10,14,336.85,Cash
+140,52,Male,79518,42,East,4,11,299.04,Debit Card
+141,54,Male,72781,61,East,9,10,55.13,Debit Card
+142,64,Male,72780,13,East,10,17,363.43,Cash
+143,31,Female,81440,11,South,2,4,219.22,Digital Wallet
+144,20,Female,64199,54,North,9,15,474.17,Digital Wallet
+145,18,Female,81035,16,East,9,16,418.09,Debit Card
+146,22,Male,28210,8,South,5,13,314.46,Debit Card
+147,43,Female,64363,59,West,1,9,163.48,Cash
+148,31,Female,131175,57,East,7,11,141.67,Digital Wallet
+149,56,Female,98279,40,South,10,11,203.17,Debit Card
+150,44,Male,80348,59,East,10,6,264.46,Digital Wallet
+151,26,Female,75284,2,North,4,1,183.23,Debit Card
+152,32,Male,127628,94,North,9,6,281.72,Cash
+153,32,Male,129835,94,West,6,13,124.42,Digital Wallet
+154,43,Male,92124,76,East,3,5,489.97,Debit Card
+155,59,Male,88847,10,South,6,15,98.57,Debit Card
+156,30,Female,42432,44,West,10,18,469.37,Debit Card
+157,68,Male,146252,11,East,6,14,461.11,Debit Card
+158,49,Male,84089,79,West,5,15,286.41,Cash
+159,56,Female,75398,80,South,2,5,376.21,Digital Wallet
+160,66,Female,119291,81,West,10,4,246.22,Digital Wallet
+161,69,Male,23321,90,West,10,2,333.52,Credit Card
+162,49,Female,101348,2,West,2,7,203.26,Digital Wallet
+163,21,Male,57383,50,East,7,10,185.52,Credit Card
+164,47,Male,133816,12,South,2,16,310.2,Debit Card
+165,54,Male,98682,90,North,6,10,274.16,Cash
+166,40,Male,143053,23,East,5,18,310.79,Cash
+167,56,Female,99190,18,North,4,17,179.0,Debit Card
+168,62,Male,72893,62,North,7,13,215.13,Credit Card
+169,32,Female,55820,96,East,8,1,87.75,Debit Card
+170,60,Female,141262,62,East,4,1,73.52,Cash
+171,46,Female,86262,38,South,1,15,164.06,Cash
+172,53,Female,23760,67,South,1,1,83.41,Digital Wallet
+173,30,Male,42190,38,West,1,6,96.7,Credit Card
+174,49,Female,87411,67,North,1,13,415.82,Digital Wallet
+175,24,Male,43377,94,South,5,1,67.49,Cash
+176,68,Female,66737,61,West,4,5,346.52,Cash
+177,39,Female,89569,1,South,9,9,172.65,Digital Wallet
+178,45,Male,58211,94,East,3,17,442.2,Digital Wallet
+179,19,Male,102909,45,South,7,16,268.25,Cash
+180,59,Male,23744,96,North,8,8,187.51,Digital Wallet
+181,62,Female,145566,28,South,6,17,282.94,Digital Wallet
+182,23,Female,44995,21,North,10,15,221.88,Credit Card
+183,45,Male,36977,13,East,1,1,303.94,Cash
+184,45,Male,149508,27,North,8,12,101.54,Debit Card
+185,61,Male,117938,100,South,10,5,498.65,Credit Card
+186,61,Male,54542,7,West,3,6,241.5,Debit Card
+187,37,Female,30651,22,East,8,1,206.7,Digital Wallet
+188,47,Male,119239,74,South,4,1,369.59,Digital Wallet
+189,28,Male,98931,53,East,8,10,213.75,Debit Card
+190,45,Male,115344,79,East,1,10,424.97,Digital Wallet
+191,42,Male,122112,79,South,3,3,254.42,Digital Wallet
+192,56,Female,36715,4,South,6,17,373.8,Credit Card
+193,50,Male,64409,96,West,9,19,98.35,Debit Card
+194,18,Female,44306,23,East,2,11,430.75,Credit Card
+195,44,Male,39086,70,East,1,18,381.07,Debit Card
+196,69,Male,34376,88,South,10,2,145.27,Credit Card
+197,30,Female,81350,84,North,3,9,115.38,Cash
+198,58,Male,91425,84,South,4,17,192.33,Cash
+199,20,Female,123358,76,East,5,14,489.23,Debit Card
+200,56,Female,56636,33,South,3,4,165.57,Cash
+201,23,Male,106120,28,West,10,17,255.26,Credit Card
+202,25,Female,134889,8,North,2,17,63.51,Debit Card
+203,44,Female,71649,1,South,2,12,228.75,Cash
+204,26,Female,54610,37,West,7,18,307.09,Cash
+205,54,Female,30058,63,East,9,3,478.91,Debit Card
+206,50,Female,144876,22,South,10,11,282.53,Cash
+207,68,Female,148265,70,East,2,18,418.6,Cash
+208,59,Female,94637,21,West,7,4,296.21,Debit Card
+209,61,Female,98033,96,East,7,17,68.35,Cash
+210,41,Male,90194,35,West,7,18,191.75,Cash
+211,32,Male,96917,79,West,3,5,309.0,Cash
+212,49,Female,84200,5,West,7,14,477.77,Cash
+213,49,Male,125848,60,South,1,10,436.61,Digital Wallet
+214,41,Female,126022,46,East,10,15,152.76,Debit Card
+215,58,Female,66619,50,East,1,1,149.05,Digital Wallet
+216,69,Male,37154,48,North,5,16,140.53,Digital Wallet
+217,66,Female,39539,6,North,2,11,465.12,Credit Card
+218,66,Female,145381,89,North,9,6,433.7,Digital Wallet
+219,69,Female,80058,56,North,7,16,398.7,Digital Wallet
+220,29,Female,82068,59,East,4,2,226.73,Credit Card
+221,56,Male,97313,29,West,4,1,276.97,Cash
+222,19,Female,119932,71,West,2,9,258.95,Cash
+223,20,Female,50373,77,South,5,12,164.03,Digital Wallet
+224,66,Female,53154,18,West,4,17,277.26,Credit Card
+225,54,Male,26031,2,East,1,15,63.72,Cash
+226,66,Female,113533,8,East,8,19,109.31,Credit Card
+227,34,Male,91975,75,East,3,10,448.97,Debit Card
+228,66,Male,42785,97,South,6,12,388.26,Debit Card
+229,19,Female,98928,54,North,4,14,240.29,Debit Card
+230,19,Female,138696,38,West,9,9,282.72,Debit Card
+231,45,Male,48669,48,East,7,13,216.5,Digital Wallet
+232,40,Female,114475,27,East,9,3,383.35,Debit Card
+233,54,Male,137154,20,North,10,14,402.88,Debit Card
+234,49,Male,22282,12,East,3,10,393.48,Credit Card
+235,50,Female,54624,43,West,1,16,375.18,Cash
+236,18,Female,68438,61,South,5,7,142.03,Credit Card
+237,36,Male,109900,31,East,3,4,202.09,Digital Wallet
+238,19,Male,87534,91,West,6,11,261.43,Debit Card
+239,61,Male,51705,96,East,8,16,198.86,Cash
+240,43,Male,58244,61,North,4,4,389.72,Cash
+241,49,Female,94964,74,East,5,17,198.21,Debit Card
+242,23,Female,57437,67,East,5,13,112.2,Debit Card
+243,49,Female,97872,91,South,4,11,229.57,Digital Wallet
+244,21,Female,94878,35,North,4,3,490.96,Digital Wallet
+245,28,Female,139006,95,North,4,9,151.65,Debit Card
+246,34,Male,125368,15,South,4,6,325.47,Debit Card
+247,55,Female,92982,16,East,4,11,244.84,Debit Card
+248,41,Female,70583,13,West,5,16,81.96,Debit Card
+249,22,Female,58392,35,North,2,19,269.54,Cash
+250,69,Female,27461,75,North,2,5,365.97,Digital Wallet
+251,51,Female,120123,59,East,9,14,280.95,Debit Card
+252,23,Male,30516,21,East,2,17,442.45,Debit Card
+253,39,Male,99285,54,North,6,3,180.02,Cash
+254,28,Male,37514,75,East,2,4,88.81,Credit Card
+255,65,Female,148657,30,West,5,16,471.45,Debit Card
+256,33,Male,141251,48,North,4,16,220.19,Cash
+257,50,Male,120962,35,West,7,4,309.38,Cash
+258,26,Female,56268,86,West,7,19,406.4,Credit Card
+259,23,Female,110486,38,East,6,17,195.94,Digital Wallet
+260,33,Female,120424,31,West,10,13,372.27,Digital Wallet
+261,46,Male,56788,78,East,5,1,110.94,Digital Wallet
+262,20,Male,95749,24,South,1,12,181.08,Debit Card
+263,37,Female,81049,49,East,3,4,115.12,Digital Wallet
+264,53,Female,82493,96,West,9,11,415.05,Debit Card
+265,36,Male,56027,100,South,1,5,150.19,Debit Card
+266,43,Male,113547,32,East,5,2,372.83,Cash
+267,20,Female,62849,55,West,2,17,474.48,Digital Wallet
+268,36,Female,120127,79,North,4,8,287.5,Digital Wallet
+269,37,Male,37858,58,North,1,6,293.01,Digital Wallet
+270,49,Female,104162,99,East,3,9,257.47,Debit Card
+271,24,Male,99003,3,East,10,13,196.65,Debit Card
+272,69,Male,72395,80,North,7,11,264.04,Digital Wallet
+273,58,Male,59758,69,West,10,16,321.26,Debit Card
+274,50,Male,74312,85,West,3,16,493.7,Debit Card
+275,57,Female,88670,10,West,4,2,471.99,Credit Card
+276,56,Female,136758,83,East,2,10,437.97,Credit Card
+277,35,Male,102279,25,South,3,12,450.11,Digital Wallet
+278,57,Male,35434,68,South,9,8,260.53,Digital Wallet
+279,18,Male,84047,61,South,3,11,345.85,Credit Card
+280,28,Male,67775,29,South,5,10,452.78,Debit Card
+281,45,Male,95769,19,South,2,13,226.83,Debit Card
+282,42,Female,134682,43,East,4,17,482.79,Cash
+283,67,Female,86677,66,East,7,7,237.1,Digital Wallet
+284,40,Female,103555,74,South,7,3,320.49,Digital Wallet
+285,48,Female,148379,61,East,3,13,369.41,Digital Wallet
+286,47,Male,105920,43,East,5,19,477.77,Cash
+287,59,Male,128439,25,South,1,7,160.08,Cash
+288,52,Male,65734,20,West,10,9,385.76,Debit Card
+289,24,Male,121665,48,East,10,19,284.37,Credit Card
+290,33,Male,108503,83,West,10,13,170.85,Credit Card
+291,43,Female,60603,87,East,1,8,399.47,Credit Card
+292,65,Male,96708,24,East,5,18,298.5,Debit Card
+293,69,Female,101926,11,South,10,2,347.44,Credit Card
+294,66,Female,88803,98,East,9,18,195.31,Cash
+295,19,Female,59332,55,North,1,18,266.57,Cash
+296,18,Female,111703,28,North,1,11,327.81,Digital Wallet
+297,65,Male,41312,69,South,4,1,232.21,Credit Card
+298,29,Female,113376,63,West,4,14,139.27,Cash
+299,22,Female,104526,59,West,2,16,482.74,Digital Wallet
+300,54,Female,64179,5,West,9,11,280.16,Credit Card
+301,49,Male,91442,51,North,9,1,380.26,Credit Card
+302,26,Male,134332,21,West,2,7,234.97,Cash
+303,58,Male,137961,12,West,9,16,209.81,Digital Wallet
+304,52,Female,60379,50,South,6,14,233.22,Digital Wallet
+305,36,Female,37297,4,West,8,15,234.14,Cash
+306,65,Male,22011,42,North,10,14,294.88,Cash
+307,33,Female,136130,84,North,4,11,294.56,Cash
+308,20,Male,140234,38,North,2,16,273.72,Credit Card
+309,37,Male,64014,25,South,2,19,110.65,Cash
+310,41,Female,132094,14,South,9,17,273.23,Cash
+311,50,Female,31738,75,East,1,6,126.1,Debit Card
+312,41,Female,114333,32,West,7,11,106.76,Cash
+313,69,Female,67498,11,South,3,17,469.69,Cash
+314,28,Male,147792,61,North,3,9,322.23,Credit Card
+315,66,Male,31120,18,North,2,18,346.77,Digital Wallet
+316,25,Male,136517,27,South,10,17,230.81,Credit Card
+317,53,Male,28767,55,South,6,12,459.04,Debit Card
+318,55,Male,42852,54,South,10,5,337.07,Cash
+319,57,Female,99239,82,East,2,11,396.13,Cash
+320,37,Male,20929,87,North,10,4,215.85,Cash
+321,52,Male,97487,75,East,4,4,482.01,Cash
+322,65,Male,138387,21,East,10,3,419.21,Cash
+323,42,Female,111575,44,West,9,17,434.28,Cash
+324,52,Female,146155,5,North,9,7,127.49,Debit Card
+325,42,Female,134149,87,North,6,4,171.93,Cash
+326,46,Female,115040,41,South,4,13,178.53,Cash
+327,35,Male,37438,59,South,7,12,171.91,Cash
+328,63,Male,68515,89,West,1,1,434.93,Debit Card
+329,35,Female,25744,54,East,4,19,64.35,Cash
+330,19,Female,103820,74,South,5,18,84.24,Debit Card
+331,52,Male,62417,22,South,8,11,173.26,Credit Card
+332,33,Male,125284,83,North,2,3,139.94,Cash
+333,58,Female,27069,65,North,5,17,154.34,Digital Wallet
+334,53,Female,62359,64,South,6,12,409.07,Debit Card
+335,50,Female,39799,71,North,5,10,303.41,Credit Card
+336,21,Female,118746,4,West,9,8,52.6,Debit Card
+337,50,Male,113762,65,South,10,15,243.2,Debit Card
+338,31,Male,140906,15,North,1,5,233.55,Credit Card
+339,38,Male,90188,76,West,3,4,101.28,Cash
+340,65,Female,109859,22,North,2,19,354.26,Cash
+341,37,Female,142521,86,North,3,4,365.94,Debit Card
+342,25,Male,127674,47,North,10,15,374.4,Credit Card
+343,24,Male,27597,81,South,9,17,377.81,Cash
+344,20,Male,67093,93,East,9,12,50.02,Debit Card
+345,34,Male,57226,46,North,10,3,479.26,Digital Wallet
+346,50,Female,92127,14,West,2,10,416.39,Credit Card
+347,65,Male,134650,50,South,3,15,456.79,Digital Wallet
+348,29,Male,111369,20,South,4,10,57.04,Digital Wallet
+349,68,Male,97362,50,West,9,18,470.24,Debit Card
+350,39,Male,46417,33,North,3,1,414.4,Credit Card
+351,39,Male,38693,59,East,7,3,426.75,Cash
+352,63,Male,99674,43,North,3,12,91.98,Cash
+353,47,Male,140956,79,West,7,1,382.45,Debit Card
+354,55,Female,135598,12,South,7,3,481.96,Cash
+355,55,Female,139028,40,East,9,3,355.35,Cash
+356,62,Female,147517,20,South,2,5,306.75,Digital Wallet
+357,68,Female,73161,94,West,6,19,475.53,Digital Wallet
+358,25,Male,141316,38,North,9,1,249.32,Credit Card
+359,44,Female,22169,3,East,2,4,319.68,Digital Wallet
+360,44,Female,104092,28,South,2,4,264.35,Cash
+361,51,Male,42052,56,South,5,17,469.78,Credit Card
+362,38,Male,91849,90,South,10,14,84.24,Credit Card
+363,47,Female,93851,94,North,10,18,275.5,Debit Card
+364,50,Female,28036,13,East,10,1,359.13,Digital Wallet
+365,45,Male,51778,77,North,8,16,406.36,Credit Card
+366,64,Female,47734,66,North,9,3,312.36,Cash
+367,50,Male,43173,37,North,2,9,459.01,Credit Card
+368,22,Male,50403,49,West,5,4,473.9,Credit Card
+369,65,Male,86321,66,West,7,5,78.94,Debit Card
+370,36,Male,91675,36,West,6,11,231.07,Cash
+371,21,Female,26344,54,East,6,9,60.56,Cash
+372,52,Male,38800,26,North,7,3,198.24,Digital Wallet
+373,66,Male,45372,75,North,3,6,291.59,Cash
+374,34,Female,81516,72,West,3,11,459.86,Credit Card
+375,61,Male,40538,40,North,10,9,430.95,Cash
+376,45,Female,83918,43,North,9,15,107.37,Cash
+377,47,Female,34973,22,South,8,3,91.86,Credit Card
+378,46,Female,91155,20,North,5,1,315.17,Debit Card
+379,63,Male,120240,8,South,6,19,289.45,Digital Wallet
+380,23,Female,79500,29,North,10,14,169.87,Digital Wallet
+381,52,Female,56575,40,East,1,17,454.75,Debit Card
+382,58,Male,125455,90,West,10,14,467.31,Credit Card
+383,54,Female,62261,30,South,1,17,231.18,Digital Wallet
+384,41,Female,130659,81,West,4,14,450.64,Debit Card
+385,46,Female,47716,84,South,2,12,222.78,Debit Card
+386,66,Female,23236,55,South,7,16,381.57,Debit Card
+387,63,Female,35848,16,South,2,1,264.17,Digital Wallet
+388,48,Male,22352,46,East,10,13,105.16,Digital Wallet
+389,52,Female,21932,62,North,2,6,467.57,Digital Wallet
+390,50,Female,96449,7,South,5,17,254.34,Digital Wallet
+391,69,Male,28556,80,East,4,12,380.52,Cash
+392,38,Male,106836,45,South,8,19,215.23,Debit Card
+393,49,Male,25498,59,North,4,6,58.5,Cash
+394,40,Female,96118,56,South,6,7,95.24,Debit Card
+395,50,Male,70098,48,East,5,1,273.3,Digital Wallet
+396,20,Female,84386,27,North,2,1,360.48,Digital Wallet
+397,35,Female,132169,53,East,8,5,200.63,Cash
+398,42,Male,29569,87,North,2,6,362.97,Credit Card
+399,59,Male,136127,88,North,9,16,364.39,Digital Wallet
+400,48,Female,146060,73,West,9,16,366.77,Credit Card
+401,20,Male,76882,35,West,3,14,271.63,Debit Card
+402,57,Female,90393,51,West,4,1,461.7,Cash
+403,63,Male,20340,84,North,8,13,270.14,Credit Card
+404,41,Male,63949,37,South,9,10,252.62,Credit Card
+405,67,Male,102302,81,East,3,10,139.72,Digital Wallet
+406,49,Female,82443,95,East,5,9,188.44,Credit Card
+407,64,Male,111668,57,East,8,13,69.05,Credit Card
+408,39,Female,94027,8,West,3,3,335.09,Debit Card
+409,40,Female,20138,79,North,7,18,161.84,Cash
+410,19,Female,20358,95,West,8,2,186.87,Digital Wallet
+411,44,Female,139619,94,South,10,17,396.87,Digital Wallet
+412,59,Male,95250,20,North,3,19,197.25,Credit Card
+413,19,Female,105376,53,East,2,13,158.99,Debit Card
+414,43,Female,119931,12,West,10,13,126.08,Credit Card
+415,34,Male,50654,49,West,7,1,398.69,Credit Card
+416,57,Female,45879,17,South,9,2,108.37,Digital Wallet
+417,50,Male,101532,64,South,1,1,254.19,Credit Card
+418,26,Female,75778,42,West,3,5,278.12,Credit Card
+419,60,Male,57772,94,South,5,3,359.33,Debit Card
+420,65,Female,78478,29,East,3,7,334.98,Digital Wallet
+421,56,Male,84353,19,South,1,13,414.82,Cash
+422,46,Female,46762,11,South,7,18,70.14,Debit Card
+423,59,Female,33283,98,West,7,7,183.4,Debit Card
+424,43,Male,83922,50,West,10,1,176.06,Debit Card
+425,52,Male,59420,71,North,8,5,115.71,Digital Wallet
+426,67,Male,75568,58,North,5,17,180.13,Credit Card
+427,42,Male,105090,34,West,10,8,189.39,Cash
+428,41,Female,40219,20,South,5,15,284.85,Digital Wallet
+429,30,Female,77169,50,South,5,4,348.67,Credit Card
+430,24,Male,120455,88,North,1,2,221.5,Debit Card
+431,53,Female,94965,10,North,10,5,373.76,Digital Wallet
+432,62,Male,66840,32,North,5,1,201.27,Credit Card
+433,37,Male,64695,52,East,6,5,180.63,Cash
+434,18,Female,125209,15,East,1,6,293.53,Cash
+435,25,Female,104754,84,North,7,2,60.67,Credit Card
+436,63,Female,97988,3,South,1,1,85.91,Digital Wallet
+437,33,Female,78342,37,North,2,4,238.09,Debit Card
+438,31,Female,134516,40,East,2,7,474.31,Credit Card
+439,29,Female,38951,72,South,5,1,374.68,Debit Card
+440,68,Female,21307,40,East,10,1,89.66,Cash
+441,40,Male,100388,56,South,7,8,430.84,Credit Card
+442,32,Male,110768,23,East,1,16,379.54,Cash
+443,45,Male,55428,11,South,10,13,324.93,Debit Card
+444,51,Male,128707,64,South,1,18,419.13,Debit Card
+445,19,Male,112021,8,South,1,10,231.85,Credit Card
+446,49,Female,138418,93,South,6,12,149.68,Credit Card
+447,40,Male,95774,94,West,2,1,280.41,Credit Card
+448,39,Male,58975,56,East,1,10,296.98,Cash
+449,68,Male,137850,60,East,6,9,292.25,Debit Card
+450,42,Male,21140,10,West,2,3,304.28,Debit Card
+451,39,Male,148865,39,South,6,19,476.92,Cash
+452,39,Male,44842,28,South,10,9,456.01,Credit Card
+453,66,Male,46421,49,East,8,10,444.07,Digital Wallet
+454,69,Female,21708,36,West,2,19,410.64,Credit Card
+455,59,Female,23630,13,South,9,16,474.54,Digital Wallet
+456,23,Male,39595,96,South,8,18,94.32,Digital Wallet
+457,32,Female,96021,36,South,10,14,169.31,Cash
+458,60,Female,48308,26,North,1,3,272.78,Debit Card
+459,54,Female,64789,86,West,7,2,430.94,Debit Card
+460,50,Female,75690,4,South,10,1,277.32,Debit Card
+461,25,Male,46086,95,North,6,18,386.62,Debit Card
+462,61,Female,36859,82,West,6,9,112.53,Cash
+463,61,Female,27684,64,South,6,13,163.59,Digital Wallet
+464,22,Female,111088,38,East,6,2,379.3,Debit Card
+465,56,Male,21207,88,North,10,7,124.13,Digital Wallet
+466,21,Male,66099,87,North,7,16,208.11,Cash
+467,23,Male,87496,22,South,3,19,169.19,Credit Card
+468,62,Male,86093,2,South,6,15,207.44,Cash
+469,49,Male,49689,31,North,3,11,368.75,Debit Card
+470,69,Male,68651,11,East,7,1,215.53,Credit Card
+471,47,Male,33893,92,East,7,7,299.87,Cash
+472,64,Female,117808,46,West,8,8,94.97,Cash
+473,52,Female,86418,96,South,2,10,412.26,Digital Wallet
+474,57,Female,145074,62,East,9,5,216.45,Cash
+475,69,Male,123065,69,West,5,9,341.84,Credit Card
+476,33,Male,80011,64,East,9,1,376.43,Cash
+477,30,Male,58635,10,South,10,2,144.35,Debit Card
+478,67,Male,76115,40,West,5,19,448.1,Digital Wallet
+479,59,Male,115071,24,West,7,14,327.3,Credit Card
+480,47,Female,98405,99,West,9,10,242.93,Credit Card
+481,36,Female,92702,44,East,4,9,132.05,Cash
+482,34,Male,98518,60,South,2,10,474.04,Debit Card
+483,36,Male,126233,62,West,9,6,389.78,Digital Wallet
+484,45,Male,123651,87,North,2,17,143.61,Credit Card
+485,43,Male,92805,17,South,3,6,201.97,Digital Wallet
+486,54,Female,78954,65,North,10,4,414.35,Cash
+487,43,Male,48064,95,North,2,3,363.05,Debit Card
+488,40,Male,142813,95,West,3,19,394.6,Cash
+489,26,Male,99063,57,West,6,18,248.54,Digital Wallet
+490,29,Male,22454,55,East,3,4,372.41,Cash
+491,18,Female,40878,53,East,10,8,223.92,Digital Wallet
+492,18,Male,71098,56,East,8,17,145.07,Credit Card
+493,64,Male,82154,98,South,6,5,334.7,Credit Card
+494,51,Female,32991,9,East,7,13,489.21,Cash
+495,49,Female,88344,22,North,1,1,189.77,Credit Card
+496,65,Female,124946,13,East,3,13,257.44,Digital Wallet
+497,42,Male,56593,89,West,3,4,353.3,Credit Card
+498,57,Male,56304,48,East,2,14,293.68,Debit Card
+499,62,Female,50386,18,South,7,3,429.54,Debit Card
+500,18,Female,75220,76,South,9,5,392.78,Cash
+501,33,Female,133613,40,North,4,7,76.23,Cash
+502,56,Female,89338,17,South,5,1,499.29,Cash
+503,22,Female,114289,15,East,3,12,388.58,Cash
+504,39,Female,41083,15,West,9,11,438.76,Digital Wallet
+505,46,Male,38354,79,South,4,8,343.04,Digital Wallet
+506,20,Male,42190,63,North,5,6,435.33,Debit Card
+507,29,Male,26142,39,East,1,2,100.57,Digital Wallet
+508,43,Female,48398,13,North,2,19,206.48,Credit Card
+509,33,Female,71971,81,South,9,14,444.39,Debit Card
+510,68,Female,61862,32,South,2,1,140.74,Cash
+511,54,Female,118668,9,North,5,10,85.21,Cash
+512,39,Female,73410,40,East,8,16,404.65,Digital Wallet
+513,46,Female,39503,20,South,3,4,425.97,Debit Card
+514,31,Male,145438,90,West,6,11,123.19,Digital Wallet
+515,45,Male,68456,91,South,4,16,434.46,Digital Wallet
+516,22,Female,120167,85,East,7,1,359.05,Digital Wallet
+517,64,Male,102035,82,South,10,16,284.04,Debit Card
+518,66,Female,125388,77,North,3,19,423.61,Cash
+519,47,Male,28016,80,South,6,9,238.66,Credit Card
+520,63,Female,22384,73,South,10,9,137.3,Cash
+521,69,Female,82320,63,East,9,9,178.18,Debit Card
+522,22,Male,35072,76,North,10,17,277.32,Cash
+523,29,Male,122239,44,East,1,12,289.1,Cash
+524,33,Female,131431,38,South,3,13,412.51,Credit Card
+525,43,Female,100018,83,West,2,8,406.11,Cash
+526,43,Male,60510,60,South,8,16,311.61,Cash
+527,65,Male,68933,71,East,7,18,401.35,Cash
+528,38,Female,41826,99,West,2,1,136.3,Digital Wallet
+529,56,Male,88026,48,East,6,1,72.53,Debit Card
+530,53,Female,141668,18,East,3,12,443.14,Debit Card
+531,50,Female,131628,16,North,8,6,84.0,Credit Card
+532,47,Female,45518,55,West,10,9,161.01,Digital Wallet
+533,54,Female,44045,39,South,3,5,362.89,Digital Wallet
+534,40,Male,70876,68,East,10,16,234.25,Cash
+535,27,Male,112446,59,South,9,18,444.34,Debit Card
+536,22,Male,110102,89,North,1,17,184.09,Credit Card
+537,53,Male,71919,96,North,5,18,55.34,Digital Wallet
+538,51,Male,119441,62,West,3,1,185.3,Cash
+539,69,Male,47103,13,North,6,19,310.13,Credit Card
+540,48,Male,138805,81,North,10,8,219.17,Digital Wallet
+541,27,Female,56188,6,South,2,3,290.69,Credit Card
+542,36,Male,25845,83,North,9,5,444.47,Digital Wallet
+543,49,Male,106698,77,North,6,8,460.62,Credit Card
+544,18,Female,56674,60,East,7,19,169.69,Digital Wallet
+545,22,Male,138325,90,North,5,18,257.96,Digital Wallet
+546,62,Male,39337,14,East,9,18,297.11,Credit Card
+547,21,Female,42313,95,North,1,1,477.1,Digital Wallet
+548,33,Male,46943,54,North,5,15,499.38,Digital Wallet
+549,41,Male,97949,4,West,10,18,155.93,Digital Wallet
+550,33,Male,20276,39,West,6,7,377.14,Credit Card
+551,19,Female,71151,72,East,7,16,220.11,Credit Card
+552,66,Male,37611,25,North,4,16,53.65,Digital Wallet
+553,45,Male,124641,77,South,1,15,54.16,Digital Wallet
+554,49,Female,31944,32,West,8,6,257.25,Credit Card
+555,44,Male,72887,59,South,10,9,269.75,Cash
+556,37,Female,101442,63,West,4,7,60.16,Digital Wallet
+557,41,Female,69847,38,West,3,14,359.12,Cash
+558,29,Male,78653,92,North,7,11,182.3,Credit Card
+559,67,Female,106072,53,West,2,16,301.95,Digital Wallet
+560,52,Female,142589,94,South,8,6,185.41,Cash
+561,50,Male,76622,67,West,6,16,125.21,Credit Card
+562,50,Female,47810,28,East,7,16,233.23,Cash
+563,68,Female,97842,3,North,5,12,154.52,Debit Card
+564,60,Male,142225,98,North,9,17,290.66,Credit Card
+565,54,Male,30503,80,East,5,5,139.47,Debit Card
+566,29,Male,104761,22,East,5,13,278.78,Credit Card
+567,20,Female,56976,96,East,3,8,120.82,Credit Card
+568,18,Male,146439,38,West,1,5,351.94,Digital Wallet
+569,50,Female,31590,72,North,2,12,389.27,Debit Card
+570,57,Female,143421,72,East,8,9,99.68,Debit Card
+571,27,Female,30886,62,West,1,3,260.51,Debit Card
+572,60,Female,32866,57,East,7,3,81.89,Credit Card
+573,61,Female,86624,6,South,5,1,319.18,Debit Card
+574,46,Female,88899,78,South,3,18,168.98,Debit Card
+575,30,Female,52792,32,North,7,12,287.43,Digital Wallet
+576,29,Male,29764,99,West,9,9,282.86,Cash
+577,48,Male,140832,10,South,2,9,465.96,Cash
+578,63,Female,145838,3,South,8,18,297.09,Debit Card
+579,19,Female,140356,59,West,9,18,312.35,Debit Card
+580,68,Male,106156,76,East,3,7,230.74,Debit Card
+581,67,Female,62727,49,West,2,4,477.09,Debit Card
+582,52,Male,98471,59,East,7,13,399.73,Cash
+583,40,Male,28068,31,South,5,17,178.43,Digital Wallet
+584,34,Male,136923,93,South,5,2,429.89,Credit Card
+585,43,Female,27295,69,South,10,14,244.58,Debit Card
+586,25,Female,61160,62,North,5,3,422.9,Debit Card
+587,46,Male,31390,52,North,4,5,420.3,Cash
+588,43,Male,126752,89,North,5,14,134.99,Debit Card
+589,27,Male,40131,41,West,4,3,365.51,Digital Wallet
+590,43,Male,114754,31,South,6,7,180.79,Digital Wallet
+591,51,Male,95969,85,South,4,18,183.87,Debit Card
+592,68,Female,35038,84,West,2,13,183.36,Cash
+593,58,Male,72327,22,North,9,10,376.51,Debit Card
+594,24,Female,113718,4,West,2,13,153.42,Debit Card
+595,21,Male,97064,13,North,9,16,50.41,Cash
+596,67,Female,41281,45,South,10,9,371.86,Digital Wallet
+597,62,Female,74189,42,East,6,2,127.03,Credit Card
+598,28,Female,68511,49,North,9,5,97.02,Debit Card
+599,46,Female,142115,20,South,9,17,156.88,Digital Wallet
+600,53,Female,28605,77,South,3,4,220.96,Debit Card
+601,42,Female,120318,81,East,1,17,264.16,Credit Card
+602,38,Male,21381,54,South,1,9,70.06,Cash
+603,53,Female,86634,36,South,3,2,486.76,Digital Wallet
+604,27,Male,39810,97,North,5,18,372.23,Credit Card
+605,54,Female,138343,1,North,3,11,195.44,Debit Card
+606,26,Female,44322,15,East,9,13,193.41,Credit Card
+607,41,Male,61869,77,East,9,8,251.84,Digital Wallet
+608,52,Female,52955,17,South,3,1,331.81,Cash
+609,66,Male,81388,24,North,3,17,115.87,Debit Card
+610,52,Male,130252,58,East,5,12,135.02,Cash
+611,65,Male,30207,72,East,2,4,436.75,Cash
+612,53,Male,107329,91,West,6,13,165.31,Credit Card
+613,35,Female,87628,23,East,7,9,221.09,Credit Card
+614,66,Female,48220,46,South,9,7,442.07,Digital Wallet
+615,56,Male,104050,72,North,6,5,348.42,Digital Wallet
+616,49,Female,123546,8,East,3,5,203.77,Cash
+617,41,Female,94085,59,West,5,17,357.66,Digital Wallet
+618,40,Male,42031,90,North,4,9,58.86,Cash
+619,49,Female,90721,59,East,5,6,381.04,Debit Card
+620,54,Male,100807,13,West,8,19,269.16,Cash
+621,29,Male,91312,39,East,8,16,415.93,Digital Wallet
+622,66,Female,79766,28,North,6,2,479.59,Digital Wallet
+623,30,Female,32449,89,North,1,10,466.6,Cash
+624,40,Female,109833,61,North,8,16,459.17,Credit Card
+625,42,Male,76699,16,South,8,5,280.48,Cash
+626,52,Male,126127,2,East,2,15,212.06,Cash
+627,58,Female,101253,82,South,4,13,259.27,Credit Card
+628,47,Female,125659,17,North,2,13,360.45,Debit Card
+629,34,Female,124769,30,West,4,13,447.8,Credit Card
+630,66,Female,131041,13,East,10,15,143.14,Digital Wallet
+631,37,Male,136185,96,South,7,14,463.19,Credit Card
+632,65,Female,66092,93,East,9,8,416.83,Digital Wallet
+633,42,Male,83671,94,West,8,11,490.49,Digital Wallet
+634,39,Male,30350,82,South,9,18,446.11,Cash
+635,30,Female,116158,13,North,8,4,175.97,Cash
+636,36,Female,120859,43,South,2,10,97.68,Debit Card
+637,66,Female,140097,85,East,7,1,100.51,Digital Wallet
+638,53,Male,145222,94,East,2,5,181.05,Cash
+639,29,Female,88487,21,East,2,13,326.38,Digital Wallet
+640,58,Female,37622,55,East,4,1,411.94,Debit Card
+641,36,Male,143853,81,North,1,8,454.66,Digital Wallet
+642,29,Female,90263,40,South,5,3,330.69,Debit Card
+643,26,Male,73117,83,North,6,3,52.53,Debit Card
+644,24,Female,123990,15,North,9,7,133.84,Debit Card
+645,45,Male,78394,73,North,10,4,94.88,Cash
+646,31,Female,122005,52,East,8,3,213.5,Credit Card
+647,48,Female,121084,74,East,2,15,275.61,Credit Card
+648,69,Male,43782,95,East,1,8,69.53,Cash
+649,36,Male,136276,53,South,2,3,206.82,Digital Wallet
+650,64,Female,48454,87,West,7,7,130.63,Cash
+651,33,Male,87904,52,East,4,18,341.18,Digital Wallet
+652,22,Male,149936,30,South,10,11,258.92,Debit Card
+653,52,Male,35592,33,East,5,11,272.89,Cash
+654,29,Male,42173,57,East,7,17,242.46,Credit Card
+655,42,Female,53204,52,North,3,6,480.21,Digital Wallet
+656,69,Female,55596,9,North,10,8,146.63,Cash
+657,38,Male,54324,54,North,2,1,282.5,Cash
+658,53,Male,142258,1,South,7,10,381.21,Digital Wallet
+659,40,Male,131668,44,West,5,19,300.58,Debit Card
+660,33,Male,81202,99,West,1,3,468.06,Debit Card
+661,56,Female,109400,75,South,1,4,220.09,Debit Card
+662,62,Female,144184,98,East,9,11,258.65,Debit Card
+663,59,Male,133365,80,South,5,15,89.84,Digital Wallet
+664,56,Male,50750,9,East,1,1,324.05,Credit Card
+665,31,Male,96112,32,South,7,9,179.7,Cash
+666,48,Female,36566,15,South,9,11,122.14,Cash
+667,22,Male,27190,12,South,1,19,295.04,Debit Card
+668,52,Female,108607,97,West,10,13,289.54,Digital Wallet
+669,40,Male,58333,78,North,4,16,84.14,Credit Card
+670,46,Female,141929,57,South,3,4,364.2,Credit Card
+671,60,Male,100905,8,West,5,1,330.7,Cash
+672,28,Female,109571,72,North,7,13,135.06,Debit Card
+673,35,Male,140263,27,North,8,1,261.25,Cash
+674,64,Male,21589,62,South,2,5,374.15,Cash
+675,29,Male,144467,12,East,7,5,288.25,Credit Card
+676,26,Female,45235,65,East,1,14,227.97,Digital Wallet
+677,27,Male,20159,42,East,7,14,195.05,Credit Card
+678,61,Female,32145,62,South,8,8,324.68,Cash
+679,34,Female,100909,11,East,2,4,472.6,Debit Card
+680,55,Male,51921,43,West,9,7,352.29,Debit Card
+681,24,Male,124859,95,West,1,19,83.64,Digital Wallet
+682,63,Male,36237,17,West,6,15,257.31,Digital Wallet
+683,30,Female,127507,97,West,1,4,450.87,Digital Wallet
+684,57,Male,28244,32,North,3,19,92.51,Cash
+685,59,Female,34743,93,West,6,9,494.99,Cash
+686,26,Female,117102,85,East,3,13,477.08,Digital Wallet
+687,67,Male,66101,85,South,8,14,85.22,Debit Card
+688,44,Male,131645,40,East,5,14,470.04,Debit Card
+689,19,Male,141534,23,West,2,10,213.41,Debit Card
+690,22,Male,104227,56,North,4,16,430.12,Cash
+691,46,Male,119532,6,West,9,5,238.27,Credit Card
+692,54,Male,76378,86,South,4,6,248.38,Debit Card
+693,55,Female,91126,50,East,10,2,335.41,Debit Card
+694,36,Female,76071,37,South,10,13,398.51,Debit Card
+695,25,Female,91121,64,South,8,13,65.21,Digital Wallet
+696,65,Male,94763,54,South,5,19,316.92,Cash
+697,62,Female,113814,72,East,10,18,134.03,Digital Wallet
+698,18,Female,124350,49,West,1,19,205.68,Digital Wallet
+699,39,Female,32237,99,South,7,1,206.59,Credit Card
+700,69,Female,35649,11,East,3,8,261.08,Digital Wallet
+701,34,Female,57713,88,North,10,16,200.36,Credit Card
+702,24,Male,93463,49,East,8,2,98.31,Digital Wallet
+703,42,Male,65409,21,North,3,8,115.53,Debit Card
+704,62,Female,68766,66,East,1,6,65.05,Cash
+705,21,Female,66154,63,West,5,16,261.61,Digital Wallet
+706,53,Female,27016,83,South,2,11,479.5,Credit Card
+707,23,Male,99563,28,West,4,17,102.05,Cash
+708,48,Male,68688,17,East,1,19,475.82,Credit Card
+709,36,Female,109678,6,South,9,11,380.01,Debit Card
+710,61,Male,132056,19,North,6,8,336.87,Digital Wallet
+711,56,Male,74238,56,East,8,4,340.37,Cash
+712,44,Female,78608,28,South,4,11,422.03,Debit Card
+713,27,Male,109081,66,North,9,8,98.11,Digital Wallet
+714,43,Male,136572,38,North,2,9,277.14,Digital Wallet
+715,36,Female,51897,37,West,9,2,363.69,Credit Card
+716,56,Male,70961,68,East,5,16,314.07,Credit Card
+717,20,Male,88703,86,North,6,6,424.75,Debit Card
+718,62,Female,64757,90,South,3,19,82.52,Credit Card
+719,30,Male,46917,49,North,4,8,360.82,Debit Card
+720,67,Male,42736,43,North,6,14,290.31,Debit Card
+721,45,Female,47990,36,West,7,16,220.62,Debit Card
+722,37,Female,82551,58,West,1,12,203.12,Credit Card
+723,45,Female,78161,13,South,7,5,329.37,Cash
+724,25,Male,99623,52,West,1,19,450.95,Debit Card
+725,58,Female,42440,58,North,5,18,273.28,Cash
+726,56,Male,55205,32,North,6,9,421.13,Digital Wallet
+727,18,Female,141156,81,West,2,2,230.97,Credit Card
+728,20,Male,100811,100,North,10,12,96.08,Credit Card
+729,30,Female,143768,60,North,9,2,77.68,Cash
+730,45,Female,75103,83,South,10,10,73.1,Digital Wallet
+731,66,Female,90812,58,West,6,1,221.07,Digital Wallet
+732,42,Female,61627,99,North,7,4,201.76,Debit Card
+733,50,Male,126122,56,West,10,12,373.07,Credit Card
+734,55,Female,123032,28,South,8,9,384.27,Digital Wallet
+735,23,Female,39008,1,West,10,4,72.88,Digital Wallet
+736,61,Male,91274,42,North,1,9,149.51,Debit Card
+737,62,Female,52402,82,West,8,6,173.42,Debit Card
+738,49,Male,73384,48,North,4,1,296.43,Cash
+739,62,Female,148922,40,North,10,10,115.03,Credit Card
+740,64,Female,25793,97,North,8,14,110.27,Digital Wallet
+741,38,Female,122827,63,South,6,18,474.71,Cash
+742,33,Male,25571,76,West,9,6,411.89,Credit Card
+743,38,Female,116867,72,South,4,18,131.29,Cash
+744,28,Female,36209,88,West,2,16,232.96,Credit Card
+745,54,Female,133550,80,South,2,15,210.03,Credit Card
+746,53,Male,110930,4,East,5,16,405.95,Digital Wallet
+747,52,Male,63148,38,North,10,8,279.6,Credit Card
+748,36,Female,111218,27,North,9,13,107.53,Debit Card
+749,37,Male,22224,9,South,3,11,382.55,Digital Wallet
+750,35,Female,126693,16,East,8,7,228.6,Debit Card
+751,64,Female,145551,56,North,4,17,168.32,Cash
+752,58,Female,68695,76,West,6,18,218.97,Cash
+753,66,Female,140779,31,South,10,19,273.99,Credit Card
+754,31,Female,149714,88,North,6,13,204.4,Credit Card
+755,32,Female,129988,14,North,3,15,158.86,Debit Card
+756,48,Female,128944,25,South,5,1,229.33,Debit Card
+757,18,Male,52441,34,South,3,16,58.63,Debit Card
+758,20,Male,126966,67,West,1,5,397.62,Cash
+759,33,Male,59129,24,West,7,3,126.93,Debit Card
+760,40,Male,120252,73,North,4,10,69.76,Digital Wallet
+761,28,Male,82368,26,North,7,19,344.16,Digital Wallet
+762,29,Male,130395,20,South,3,5,398.27,Cash
+763,27,Male,112122,64,North,5,7,416.22,Debit Card
+764,49,Female,64760,10,North,5,14,272.08,Debit Card
+765,33,Female,149655,83,South,2,3,142.42,Credit Card
+766,25,Female,43478,67,North,10,13,381.75,Digital Wallet
+767,55,Female,147881,24,North,2,13,364.87,Cash
+768,29,Male,91854,5,East,4,10,160.82,Debit Card
+769,41,Male,114230,67,West,4,2,456.53,Credit Card
+770,45,Female,105716,58,South,4,6,96.97,Cash
+771,25,Female,32180,27,East,6,8,492.21,Cash
+772,45,Male,118538,80,West,2,4,437.11,Digital Wallet
+773,53,Female,35372,15,West,6,12,359.55,Debit Card
+774,43,Female,49796,35,West,7,15,472.44,Cash
+775,25,Female,78272,76,East,10,8,375.04,Credit Card
+776,67,Female,138295,53,East,3,7,135.71,Credit Card
+777,45,Male,109963,44,West,8,14,248.97,Cash
+778,45,Female,118826,26,North,2,19,82.18,Credit Card
+779,54,Female,140592,47,North,8,14,225.35,Cash
+780,58,Male,113635,34,East,5,13,383.72,Credit Card
+781,53,Male,131022,87,East,2,1,223.9,Cash
+782,44,Female,74040,95,East,7,19,198.63,Cash
+783,34,Male,95357,50,West,2,1,317.91,Cash
+784,26,Female,91368,84,North,6,4,442.49,Credit Card
+785,50,Female,98356,12,East,10,10,71.41,Cash
+786,37,Male,36211,87,East,3,3,223.46,Digital Wallet
+787,30,Female,125426,4,South,9,9,121.21,Cash
+788,45,Female,25842,87,West,3,3,362.91,Debit Card
+789,65,Female,83115,48,South,3,6,97.58,Debit Card
+790,46,Female,86852,55,North,5,6,349.16,Digital Wallet
+791,30,Male,145737,1,South,7,12,178.78,Cash
+792,63,Male,65968,89,South,8,1,139.51,Debit Card
+793,52,Female,37508,66,South,7,16,471.36,Cash
+794,23,Male,42005,30,West,9,5,58.34,Debit Card
+795,35,Female,74575,3,North,5,9,247.0,Credit Card
+796,68,Female,100742,21,South,10,10,59.73,Credit Card
+797,22,Female,38971,89,West,3,13,267.62,Digital Wallet
+798,64,Female,45599,84,North,6,15,275.47,Digital Wallet
+799,42,Female,107592,49,East,5,12,194.75,Cash
+800,19,Male,86914,86,South,4,5,109.47,Digital Wallet
+801,27,Female,138062,85,North,2,5,219.37,Cash
+802,47,Male,87055,62,South,7,18,352.52,Credit Card
+803,67,Male,107697,97,East,5,12,402.08,Credit Card
+804,62,Female,126239,38,North,4,3,288.84,Debit Card
+805,22,Female,124397,15,West,8,7,315.43,Cash
+806,50,Female,143106,52,North,9,17,140.28,Credit Card
+807,18,Female,25355,79,West,9,19,179.3,Credit Card
+808,35,Female,74120,46,North,3,18,122.85,Cash
+809,49,Male,94619,25,West,3,1,162.18,Debit Card
+810,64,Female,58342,21,East,5,5,151.2,Debit Card
+811,66,Female,105992,88,East,5,2,283.75,Debit Card
+812,28,Male,98860,5,East,10,1,303.21,Debit Card
+813,38,Male,22257,70,North,2,7,475.23,Credit Card
+814,43,Female,47364,47,East,1,11,138.01,Cash
+815,42,Male,44972,87,South,8,11,338.75,Cash
+816,39,Female,131715,68,East,3,18,417.77,Credit Card
+817,44,Male,46654,91,West,1,17,302.11,Credit Card
+818,66,Male,100769,18,West,1,2,164.75,Credit Card
+819,30,Female,101423,21,West,2,7,168.15,Digital Wallet
+820,50,Male,49320,92,North,6,7,67.66,Cash
+821,51,Male,40808,99,South,6,10,187.45,Cash
+822,58,Male,72389,86,East,3,3,385.07,Cash
+823,52,Male,115690,23,South,4,12,71.38,Debit Card
+824,18,Male,138581,64,South,2,3,148.68,Credit Card
+825,38,Male,147927,67,West,2,11,367.8,Credit Card
+826,65,Female,54773,40,West,7,12,402.19,Credit Card
+827,23,Female,71168,10,West,1,4,254.89,Digital Wallet
+828,45,Male,47747,89,North,7,16,364.13,Cash
+829,34,Female,96396,52,South,1,18,224.58,Credit Card
+830,22,Female,128374,72,South,6,4,121.96,Digital Wallet
+831,48,Female,127692,75,North,3,6,229.17,Credit Card
+832,22,Male,103692,61,North,8,15,310.99,Debit Card
+833,55,Female,77505,64,North,6,1,476.62,Cash
+834,20,Male,105896,5,South,2,3,80.94,Digital Wallet
+835,40,Female,38135,53,South,8,5,278.33,Credit Card
+836,54,Male,110887,55,West,5,17,198.01,Cash
+837,54,Male,142118,37,West,8,14,278.74,Digital Wallet
+838,27,Female,116035,56,South,8,9,60.79,Cash
+839,27,Female,67377,59,West,6,3,190.86,Cash
+840,36,Male,43554,93,North,2,13,418.94,Debit Card
+841,34,Female,82491,69,East,8,3,299.27,Cash
+842,38,Female,75621,73,West,6,11,252.76,Digital Wallet
+843,31,Female,134667,59,South,6,2,178.49,Cash
+844,26,Male,78283,2,West,8,15,184.12,Digital Wallet
+845,63,Male,105140,65,West,1,13,222.4,Cash
+846,18,Female,36923,60,West,2,19,426.01,Credit Card
+847,68,Female,67591,51,East,9,16,485.25,Debit Card
+848,62,Female,82261,30,North,8,18,247.39,Credit Card
+849,30,Male,136149,11,South,7,7,227.01,Debit Card
+850,21,Male,74336,92,East,7,13,430.95,Digital Wallet
+851,18,Female,94083,76,South,5,4,242.11,Debit Card
+852,66,Female,80948,39,South,2,9,298.41,Cash
+853,57,Female,129819,90,South,6,10,153.92,Cash
+854,49,Female,53002,77,East,10,9,384.58,Credit Card
+855,51,Female,100098,72,North,3,7,289.39,Debit Card
+856,45,Female,136236,63,South,4,15,414.07,Digital Wallet
+857,48,Male,93016,64,North,10,8,401.33,Digital Wallet
+858,25,Female,46672,61,North,2,19,146.75,Cash
+859,56,Male,24213,54,West,2,11,372.04,Digital Wallet
+860,43,Female,30293,92,East,8,5,410.02,Cash
+861,51,Female,119977,94,East,8,2,205.75,Cash
+862,20,Male,75860,73,West,10,10,127.67,Cash
+863,67,Male,82507,95,West,6,16,51.18,Credit Card
+864,29,Male,77134,58,North,5,13,252.91,Credit Card
+865,18,Male,22100,85,South,8,8,208.59,Cash
+866,61,Female,130153,56,East,4,9,299.71,Cash
+867,22,Male,81997,34,South,4,11,134.62,Cash
+868,47,Female,48172,31,South,5,11,436.85,Digital Wallet
+869,47,Male,40132,52,West,1,16,165.99,Cash
+870,34,Female,137861,89,South,1,10,151.89,Cash
+871,65,Female,38199,76,North,2,12,266.32,Debit Card
+872,64,Female,56609,1,West,8,6,274.48,Debit Card
+873,40,Female,62965,55,South,7,12,146.79,Debit Card
+874,32,Female,28016,22,West,10,10,172.34,Debit Card
+875,54,Female,59779,40,North,9,18,126.37,Cash
+876,38,Male,122797,1,North,5,18,373.31,Debit Card
+877,31,Female,51881,65,South,2,4,396.54,Digital Wallet
+878,19,Male,102594,63,West,7,9,258.05,Digital Wallet
+879,28,Male,44472,54,South,8,7,371.34,Debit Card
+880,68,Female,126882,42,South,7,18,381.17,Credit Card
+881,56,Male,120462,21,West,7,8,112.22,Digital Wallet
+882,55,Female,71813,79,South,5,11,484.78,Digital Wallet
+883,51,Male,120368,81,North,2,7,419.46,Debit Card
+884,55,Female,146731,22,West,6,9,142.02,Debit Card
+885,67,Male,56021,38,West,4,8,133.77,Cash
+886,51,Female,74131,99,West,10,3,106.55,Digital Wallet
+887,35,Female,44087,80,West,2,17,112.27,Debit Card
+888,47,Female,32828,8,South,9,2,386.67,Debit Card
+889,32,Female,81610,62,South,7,15,261.34,Cash
+890,44,Male,116664,47,North,6,14,402.32,Digital Wallet
+891,68,Female,143619,17,East,5,18,385.81,Debit Card
+892,51,Male,21401,17,East,3,16,322.08,Cash
+893,69,Male,105179,90,North,10,4,358.86,Debit Card
+894,55,Male,35193,13,East,10,6,58.26,Credit Card
+895,50,Female,112389,17,North,4,6,190.3,Credit Card
+896,41,Male,64864,38,South,3,11,337.02,Debit Card
+897,32,Male,40307,81,West,8,17,54.21,Digital Wallet
+898,47,Male,122518,78,West,3,3,64.84,Credit Card
+899,59,Female,39611,45,South,7,13,433.35,Cash
+900,68,Female,63791,6,West,7,3,357.81,Debit Card
+901,34,Male,31950,35,West,7,16,169.42,Cash
+902,22,Female,96240,14,East,7,15,359.58,Credit Card
+903,46,Female,128647,72,South,2,11,406.61,Digital Wallet
+904,21,Male,97403,61,East,10,18,188.06,Cash
+905,27,Male,22745,15,East,3,15,66.22,Credit Card
+906,34,Female,75243,54,West,10,5,469.75,Credit Card
+907,27,Male,23866,27,West,9,16,205.33,Credit Card
+908,34,Female,52245,13,South,3,16,97.92,Cash
+909,37,Female,64724,31,West,2,17,271.34,Credit Card
+910,41,Female,148681,35,West,9,9,395.81,Debit Card
+911,22,Female,91354,60,South,10,3,149.74,Credit Card
+912,51,Female,71374,6,West,9,13,171.27,Debit Card
+913,23,Female,134397,69,East,4,3,159.22,Digital Wallet
+914,19,Male,137480,86,South,9,7,496.25,Debit Card
+915,30,Male,144577,58,West,3,6,138.83,Digital Wallet
+916,60,Female,50116,49,North,7,9,308.98,Digital Wallet
+917,60,Female,101029,23,South,7,12,466.37,Debit Card
+918,65,Female,113574,89,South,8,15,116.1,Digital Wallet
+919,28,Male,40447,34,North,10,3,486.88,Debit Card
+920,68,Female,50431,26,West,4,10,476.36,Cash
+921,64,Male,37908,47,West,3,1,448.06,Digital Wallet
+922,40,Female,49336,5,South,3,19,146.55,Debit Card
+923,33,Female,60992,90,South,5,19,335.32,Digital Wallet
+924,48,Male,75350,20,West,1,13,392.4,Credit Card
+925,28,Male,89561,6,West,10,12,493.71,Debit Card
+926,33,Female,137254,70,East,3,1,131.19,Credit Card
+927,25,Female,71955,59,South,6,19,394.71,Digital Wallet
+928,21,Female,81240,64,South,3,16,202.46,Digital Wallet
+929,57,Male,40093,18,North,5,15,129.03,Cash
+930,21,Male,26155,4,East,9,16,239.62,Debit Card
+931,42,Male,66607,17,West,2,11,407.23,Credit Card
+932,20,Male,53487,14,East,2,6,259.18,Cash
+933,49,Male,133194,78,West,6,11,291.89,Digital Wallet
+934,20,Male,75668,13,West,6,3,497.82,Digital Wallet
+935,44,Female,40963,7,East,8,15,229.6,Cash
+936,46,Female,70124,44,South,2,1,326.93,Credit Card
+937,49,Male,72870,15,West,9,7,214.36,Digital Wallet
+938,67,Female,76547,19,East,2,1,226.75,Digital Wallet
+939,68,Female,84110,63,North,1,17,363.04,Debit Card
+940,36,Male,73554,35,East,10,9,472.05,Cash
+941,38,Female,40936,81,North,2,13,294.06,Digital Wallet
+942,22,Male,136895,35,West,7,11,395.78,Credit Card
+943,35,Male,24426,19,East,8,6,90.14,Debit Card
+944,45,Female,108839,20,East,5,1,145.02,Cash
+945,59,Male,130816,100,North,6,7,275.96,Credit Card
+946,39,Male,47606,35,East,1,12,59.01,Digital Wallet
+947,38,Male,67832,32,East,6,19,163.78,Cash
+948,23,Male,48151,48,West,8,17,282.83,Cash
+949,18,Male,99303,44,East,3,4,56.73,Credit Card
+950,22,Male,31308,24,South,1,3,169.05,Cash
+951,58,Male,129781,61,North,4,1,281.31,Credit Card
+952,29,Male,82522,17,East,1,18,307.92,Digital Wallet
+953,43,Female,143523,71,North,8,15,466.59,Debit Card
+954,63,Female,65671,50,North,5,8,340.41,Credit Card
+955,51,Female,110306,65,North,1,1,236.63,Debit Card
+956,66,Male,114108,99,East,8,14,468.66,Cash
+957,31,Male,126984,32,East,9,4,403.2,Credit Card
+958,43,Female,22204,36,North,10,5,140.0,Digital Wallet
+959,62,Female,112769,13,South,2,13,108.88,Credit Card
+960,44,Female,107265,70,North,9,15,354.12,Credit Card
+961,26,Male,51131,58,South,8,6,301.95,Credit Card
+962,43,Female,72428,14,North,7,1,405.35,Debit Card
+963,64,Female,53870,37,West,3,19,382.46,Debit Card
+964,39,Male,123547,79,North,2,13,331.35,Cash
+965,64,Female,124918,68,North,7,6,493.87,Cash
+966,47,Male,69067,40,East,5,15,290.12,Cash
+967,60,Male,78585,59,South,6,16,100.9,Cash
+968,65,Male,127011,80,West,4,16,422.72,Credit Card
+969,34,Female,132217,92,South,2,10,163.33,Debit Card
+970,43,Female,41607,16,West,9,9,399.79,Debit Card
+971,53,Male,44968,62,North,3,9,480.7,Debit Card
+972,18,Female,118934,4,East,7,17,363.56,Debit Card
+973,25,Female,31908,45,East,8,17,318.21,Cash
+974,66,Female,46423,90,South,2,17,257.17,Credit Card
+975,52,Female,129151,28,East,6,12,213.98,Debit Card
+976,69,Male,94707,96,South,8,13,208.85,Digital Wallet
+977,32,Female,98257,66,South,7,12,336.37,Credit Card
+978,64,Male,146282,31,West,3,14,388.07,Digital Wallet
+979,39,Male,81215,3,South,1,10,355.33,Credit Card
+980,31,Female,75835,8,West,6,19,139.28,Credit Card
+981,43,Male,69429,24,East,8,2,272.29,Credit Card
+982,45,Female,102152,15,South,6,4,406.24,Digital Wallet
+983,40,Female,128048,43,South,5,19,264.07,Debit Card
+984,31,Male,58458,31,North,8,7,291.48,Debit Card
+985,41,Male,66169,73,South,2,15,397.01,Digital Wallet
+986,19,Male,27659,45,South,1,15,347.57,Debit Card
+987,62,Male,80614,66,North,1,6,234.21,Cash
+988,43,Female,128905,8,North,4,3,452.94,Debit Card
+989,31,Female,97240,71,East,6,6,123.16,Cash
+990,68,Female,52793,57,South,9,16,497.98,Cash
+991,24,Male,133688,80,East,1,2,103.48,Cash
+992,20,Male,66473,99,East,1,7,56.73,Digital Wallet
+993,64,Male,116762,30,North,5,11,450.51,Debit Card
+994,40,Female,109388,74,West,10,7,160.23,Debit Card
+995,63,Male,117618,18,East,5,4,378.36,Digital Wallet
+996,60,Female,108330,69,West,5,7,414.96,Digital Wallet
+997,64,Male,126956,93,South,10,4,436.54,Debit Card
+998,62,Female,138452,39,North,6,12,496.22,Digital Wallet
+999,35,Female,75751,60,South,8,5,182.32,Digital Wallet
+1000,55,Male,146311,98,South,3,19,369.61,Cash
+1001,52,Male,98915,43,North,9,5,101.93,Digital Wallet
+1002,68,Female,74254,45,South,1,19,233.06,Cash
+1003,32,Female,27006,23,North,4,3,431.59,Credit Card
+1004,42,Male,138171,69,West,9,11,215.45,Cash
+1005,54,Male,136682,94,South,8,7,315.99,Cash
+1006,45,Female,94218,6,North,10,17,276.7,Digital Wallet
+1007,27,Male,85344,56,East,9,9,340.68,Debit Card
+1008,56,Female,53840,4,South,1,9,487.8,Credit Card
+1009,34,Female,52430,93,West,9,10,75.08,Credit Card
+1010,56,Male,43091,23,North,3,13,308.28,Credit Card
+1011,39,Male,146053,6,South,10,15,438.36,Debit Card
+1012,43,Male,52983,32,South,9,5,266.62,Credit Card
+1013,61,Male,43989,18,South,1,3,85.34,Credit Card
+1014,42,Male,95451,15,West,1,8,302.24,Debit Card
+1015,34,Female,128088,40,North,9,10,199.43,Credit Card
+1016,30,Female,38990,96,East,6,13,119.72,Digital Wallet
+1017,37,Male,110270,73,East,4,3,432.07,Digital Wallet
+1018,42,Male,100360,74,East,7,8,284.72,Cash
+1019,21,Male,139469,84,North,5,9,469.97,Cash
+1020,27,Female,56081,6,East,10,12,412.71,Cash
+1021,20,Male,31033,63,West,7,11,361.84,Digital Wallet
+1022,58,Male,128272,67,North,8,2,52.26,Digital Wallet
+1023,62,Female,36241,11,South,8,18,242.52,Digital Wallet
+1024,35,Female,144932,43,West,1,9,138.87,Cash
+1025,64,Male,142451,17,South,8,2,459.86,Cash
+1026,53,Male,25939,96,East,6,2,128.56,Cash
+1027,64,Male,133000,4,West,4,3,178.73,Cash
+1028,39,Female,67562,63,North,8,16,282.58,Cash
+1029,51,Male,55063,68,West,3,19,168.51,Cash
+1030,64,Male,140373,81,South,4,4,144.44,Digital Wallet
+1031,25,Male,120000,41,North,6,18,319.59,Debit Card
+1032,57,Female,96721,83,West,7,18,90.02,Debit Card
+1033,66,Female,47045,5,West,4,10,76.18,Cash
+1034,61,Male,136634,32,West,4,11,217.51,Debit Card
+1035,36,Male,64769,86,West,7,17,374.3,Debit Card
+1036,59,Female,67118,70,North,6,16,299.66,Digital Wallet
+1037,58,Female,104703,35,South,8,13,240.29,Cash
+1038,54,Female,121948,22,West,1,2,304.59,Cash
+1039,23,Female,41625,65,North,10,2,214.45,Debit Card
+1040,69,Female,124724,84,South,7,14,471.27,Cash
+1041,43,Female,148557,22,West,7,4,74.71,Cash
+1042,51,Female,47076,11,South,7,17,353.03,Cash
+1043,62,Female,142245,77,South,7,13,451.08,Cash
+1044,23,Female,84805,3,North,10,4,411.75,Debit Card
+1045,54,Male,64605,9,South,10,3,132.82,Credit Card
+1046,50,Male,104565,60,North,8,12,183.17,Debit Card
+1047,39,Male,108509,76,West,9,8,372.67,Digital Wallet
+1048,38,Female,59121,87,South,9,2,87.92,Credit Card
+1049,23,Male,85101,14,South,2,6,415.34,Credit Card
+1050,23,Female,51433,97,East,7,10,373.51,Credit Card
+1051,65,Female,63309,18,West,7,12,378.32,Debit Card
+1052,21,Male,87468,73,West,4,10,95.11,Digital Wallet
+1053,47,Female,64254,23,East,9,10,372.99,Debit Card
+1054,28,Male,87293,74,East,8,3,355.92,Digital Wallet
+1055,47,Male,116258,83,North,1,10,423.92,Debit Card
+1056,48,Male,57853,47,North,2,9,68.72,Debit Card
+1057,41,Female,58405,69,South,2,19,60.4,Debit Card
+1058,26,Male,86652,47,South,8,14,217.85,Credit Card
+1059,20,Female,63527,87,South,1,2,116.95,Debit Card
+1060,68,Male,97227,30,South,4,5,301.27,Digital Wallet
+1061,48,Male,20492,25,North,10,8,462.81,Digital Wallet
+1062,57,Male,113418,28,West,5,7,226.17,Digital Wallet
+1063,54,Female,28811,98,South,9,6,430.23,Credit Card
+1064,53,Female,113344,25,West,7,11,50.11,Debit Card
+1065,41,Female,44272,74,South,8,12,125.83,Debit Card
+1066,48,Male,113935,78,East,9,18,63.69,Cash
+1067,23,Male,92010,58,South,7,19,197.67,Credit Card
+1068,19,Female,112492,94,South,5,10,458.69,Digital Wallet
+1069,37,Female,67153,41,South,5,14,93.63,Digital Wallet
+1070,45,Female,128042,25,North,10,3,322.88,Debit Card
+1071,28,Female,74110,78,East,6,18,253.17,Digital Wallet
+1072,21,Female,33979,99,South,5,15,472.31,Debit Card
+1073,32,Female,130059,48,South,9,6,105.13,Debit Card
+1074,23,Male,128101,98,West,3,10,145.41,Cash
+1075,66,Female,48328,10,East,3,12,63.29,Credit Card
+1076,47,Male,132911,99,South,7,7,245.27,Debit Card
+1077,55,Male,32867,75,West,7,17,175.02,Debit Card
+1078,68,Female,79234,11,West,6,1,441.46,Debit Card
+1079,19,Female,45851,85,North,3,18,322.22,Cash
+1080,32,Male,51279,21,West,7,15,326.34,Debit Card
+1081,28,Female,137431,86,South,5,19,289.36,Credit Card
+1082,25,Female,116063,45,North,7,1,91.33,Credit Card
+1083,43,Male,93402,7,North,2,5,250.26,Digital Wallet
+1084,68,Male,35449,81,South,6,15,499.78,Credit Card
+1085,62,Male,96221,64,East,8,3,425.85,Digital Wallet
+1086,61,Female,109080,64,West,1,1,452.06,Credit Card
+1087,22,Male,25451,2,North,4,8,420.45,Digital Wallet
+1088,23,Female,107178,76,East,1,12,96.37,Debit Card
+1089,43,Male,61316,42,South,1,19,152.35,Cash
+1090,21,Male,83064,82,West,10,12,51.4,Cash
+1091,36,Male,83761,54,West,8,13,186.58,Cash
+1092,37,Female,125490,75,North,7,1,98.87,Debit Card
+1093,50,Female,58870,16,West,10,19,262.76,Cash
+1094,37,Male,116566,18,West,1,6,354.71,Credit Card
+1095,66,Male,143749,99,West,2,8,443.53,Digital Wallet
+1096,29,Male,143765,59,West,4,4,387.15,Debit Card
+1097,64,Female,144881,90,South,1,5,472.36,Cash
+1098,18,Male,50873,16,East,3,7,74.25,Credit Card
+1099,43,Female,148389,6,South,8,4,55.48,Credit Card
+1100,31,Male,78627,57,South,8,4,347.6,Debit Card
+1101,55,Male,86155,47,North,8,15,180.21,Debit Card
+1102,54,Male,119186,48,West,6,5,164.08,Cash
+1103,28,Male,45372,42,South,6,9,198.9,Digital Wallet
+1104,53,Male,23642,76,West,5,2,171.41,Cash
+1105,30,Male,149148,60,South,9,7,280.15,Cash
+1106,60,Female,48001,77,South,4,17,248.07,Debit Card
+1107,20,Male,54064,4,North,10,16,280.59,Cash
+1108,50,Female,114826,2,East,7,17,352.72,Cash
+1109,23,Male,34122,90,East,1,2,224.21,Digital Wallet
+1110,67,Male,44820,59,South,9,11,163.09,Credit Card
+1111,27,Female,88431,27,North,7,2,124.79,Credit Card
+1112,22,Male,75745,27,West,10,1,207.26,Digital Wallet
+1113,40,Female,70081,79,West,9,2,383.81,Credit Card
+1114,27,Female,90902,72,South,7,9,390.52,Cash
+1115,61,Male,28711,7,East,2,2,350.11,Digital Wallet
+1116,19,Female,105132,63,North,6,15,155.31,Digital Wallet
+1117,30,Female,38793,46,East,10,10,314.64,Debit Card
+1118,57,Male,28199,63,West,4,15,306.81,Credit Card
+1119,19,Female,96253,12,East,3,10,267.92,Debit Card
+1120,37,Male,56191,13,West,2,17,297.49,Cash
+1121,18,Male,30211,43,North,6,9,271.31,Digital Wallet
+1122,54,Male,131086,17,North,8,18,304.46,Cash
+1123,26,Male,83069,63,South,6,4,371.98,Credit Card
+1124,34,Female,108896,81,South,9,9,99.33,Debit Card
+1125,26,Male,76746,36,East,5,16,387.33,Credit Card
+1126,28,Male,41542,85,North,2,4,111.15,Cash
+1127,32,Female,51312,8,North,8,16,79.98,Debit Card
+1128,41,Male,65242,69,South,9,19,489.24,Credit Card
+1129,55,Male,121971,90,West,10,1,480.65,Cash
+1130,52,Female,113783,80,East,4,6,77.2,Credit Card
+1131,47,Female,145681,36,East,6,10,249.46,Digital Wallet
+1132,48,Female,107893,28,South,10,16,133.81,Debit Card
+1133,66,Female,75388,93,North,8,4,268.41,Debit Card
+1134,22,Female,126581,47,South,9,13,423.58,Debit Card
+1135,61,Female,47691,76,South,5,16,477.78,Digital Wallet
+1136,67,Female,97960,30,South,6,6,335.41,Debit Card
+1137,31,Male,104388,23,South,4,11,209.26,Digital Wallet
+1138,28,Female,42601,16,West,5,3,321.5,Debit Card
+1139,26,Female,138307,14,West,7,10,190.4,Credit Card
+1140,51,Female,38020,74,North,9,1,459.42,Credit Card
+1141,29,Male,28155,71,South,10,11,441.68,Credit Card
+1142,52,Male,89119,52,West,6,12,301.2,Credit Card
+1143,52,Female,101051,37,North,6,14,196.16,Digital Wallet
+1144,18,Female,56777,29,South,8,8,182.03,Cash
+1145,57,Female,39710,67,East,4,11,65.04,Cash
+1146,39,Male,128714,15,West,3,4,417.12,Credit Card
+1147,46,Male,44532,100,North,7,7,252.67,Cash
+1148,25,Female,148727,47,East,5,10,196.31,Cash
+1149,28,Male,38601,46,South,2,19,262.0,Debit Card
+1150,58,Female,83227,52,South,2,4,418.43,Digital Wallet
+1151,54,Male,24967,19,South,6,2,106.08,Credit Card
+1152,31,Male,104289,77,West,8,18,435.95,Cash
+1153,47,Female,40022,21,North,1,14,453.88,Cash
+1154,52,Female,63463,64,East,6,16,476.02,Credit Card
+1155,38,Female,94671,37,North,2,11,228.87,Debit Card
+1156,54,Female,25722,27,West,2,10,147.71,Credit Card
+1157,22,Male,47413,55,North,7,17,218.14,Debit Card
+1158,36,Male,112772,29,West,10,14,199.81,Cash
+1159,31,Male,101050,20,South,1,4,129.27,Digital Wallet
+1160,43,Female,129432,25,East,6,19,323.27,Debit Card
+1161,21,Male,122748,70,South,7,2,264.48,Debit Card
+1162,42,Female,125922,63,North,8,7,439.57,Credit Card
+1163,62,Male,105867,36,South,7,9,64.45,Cash
+1164,59,Female,103596,2,East,6,19,339.74,Digital Wallet
+1165,42,Female,86732,22,South,9,16,393.33,Credit Card
+1166,35,Male,32297,96,East,3,16,391.77,Credit Card
+1167,57,Female,88323,16,East,6,18,448.73,Digital Wallet
+1168,25,Female,43816,18,South,4,11,378.07,Cash
+1169,56,Male,144341,69,West,2,7,467.51,Digital Wallet
+1170,57,Female,60695,54,North,1,9,199.7,Credit Card
+1171,31,Female,39702,100,West,1,4,276.44,Credit Card
+1172,49,Female,45242,30,West,10,13,56.34,Debit Card
+1173,68,Male,75841,45,South,3,4,53.13,Digital Wallet
+1174,55,Male,148498,19,North,4,19,158.06,Digital Wallet
+1175,50,Female,87712,87,North,2,2,95.36,Digital Wallet
+1176,40,Male,105663,34,West,1,9,167.1,Credit Card
+1177,32,Female,127096,13,South,4,12,129.67,Cash
+1178,50,Female,112764,43,North,7,2,62.83,Credit Card
+1179,42,Female,73574,62,West,10,6,459.19,Debit Card
+1180,34,Female,105744,93,North,6,5,53.7,Credit Card
+1181,50,Female,48482,100,South,6,5,381.24,Credit Card
+1182,64,Male,29171,22,South,9,5,118.47,Credit Card
+1183,19,Female,120755,52,South,2,4,460.5,Debit Card
+1184,31,Male,118932,52,North,4,9,451.76,Digital Wallet
+1185,57,Male,128125,36,East,5,10,344.26,Cash
+1186,57,Female,126082,73,North,1,16,352.51,Cash
+1187,68,Female,23696,19,East,8,10,52.4,Debit Card
+1188,56,Male,146310,38,South,8,10,493.19,Digital Wallet
+1189,68,Male,40058,70,West,6,19,445.02,Digital Wallet
+1190,23,Male,40313,79,East,5,10,452.8,Debit Card
+1191,23,Female,39149,57,South,8,6,346.66,Credit Card
+1192,20,Male,73521,20,South,3,17,205.15,Digital Wallet
+1193,24,Female,65740,9,East,3,5,452.14,Cash
+1194,68,Female,126611,32,West,2,6,181.18,Debit Card
+1195,25,Female,24956,4,South,5,15,303.22,Cash
+1196,59,Male,95731,50,East,3,19,94.88,Credit Card
+1197,69,Female,102612,82,West,3,18,464.88,Debit Card
+1198,32,Female,137850,5,West,6,4,113.35,Cash
+1199,64,Female,86641,20,South,8,8,151.2,Cash
+1200,46,Female,83811,87,North,2,16,301.16,Credit Card
+1201,50,Female,72160,75,North,4,19,393.84,Debit Card
+1202,69,Male,71313,37,South,7,3,328.71,Digital Wallet
+1203,47,Female,83232,22,West,1,10,154.46,Digital Wallet
+1204,56,Female,35417,58,South,1,2,50.42,Cash
+1205,44,Male,44729,68,East,10,4,390.72,Credit Card
+1206,53,Female,132492,93,North,7,6,493.34,Cash
+1207,46,Male,50099,44,East,7,11,414.46,Credit Card
+1208,55,Female,138387,34,South,1,14,257.09,Digital Wallet
+1209,50,Male,118134,77,South,1,16,456.7,Cash
+1210,54,Male,49961,42,West,4,19,234.43,Cash
+1211,44,Female,32602,9,West,5,2,286.22,Credit Card
+1212,50,Female,138474,95,West,5,17,264.71,Debit Card
+1213,21,Female,29256,7,East,4,9,251.43,Credit Card
+1214,39,Male,106120,68,West,8,17,398.84,Debit Card
+1215,19,Male,132516,19,South,7,15,287.05,Digital Wallet
+1216,27,Male,54681,94,West,9,7,192.52,Cash
+1217,22,Female,111328,31,North,7,19,166.17,Cash
+1218,27,Male,107440,35,West,10,3,66.99,Credit Card
+1219,50,Male,84789,57,East,1,1,312.44,Credit Card
+1220,55,Female,63361,85,North,7,4,153.48,Digital Wallet
+1221,30,Male,84503,61,North,1,18,116.66,Digital Wallet
+1222,48,Male,54540,31,North,7,8,344.22,Debit Card
+1223,64,Female,46536,83,East,10,19,356.54,Digital Wallet
+1224,53,Male,104700,95,South,8,6,388.47,Digital Wallet
+1225,62,Female,83043,53,West,9,1,276.61,Digital Wallet
+1226,41,Female,98532,32,North,3,8,452.32,Digital Wallet
+1227,69,Female,76575,66,North,4,1,471.35,Debit Card
+1228,32,Female,147626,59,North,4,19,413.32,Digital Wallet
+1229,46,Female,22871,10,South,9,11,336.02,Debit Card
+1230,25,Male,66002,2,South,7,15,186.67,Credit Card
+1231,22,Male,69812,66,East,3,11,492.33,Cash
+1232,46,Female,42626,60,South,10,19,173.36,Credit Card
+1233,64,Female,79979,88,West,5,10,141.2,Digital Wallet
+1234,21,Male,96057,17,East,7,12,248.97,Cash
+1235,29,Female,146834,96,East,8,1,75.58,Digital Wallet
+1236,62,Female,128946,16,West,1,7,490.32,Digital Wallet
+1237,19,Female,86668,16,West,2,17,314.8,Credit Card
+1238,44,Male,119003,46,West,7,10,300.63,Digital Wallet
+1239,48,Male,100070,39,East,2,6,345.11,Credit Card
+1240,68,Female,109390,31,East,7,17,273.66,Digital Wallet
+1241,68,Female,62998,88,East,9,18,64.43,Debit Card
+1242,53,Male,83814,1,West,2,5,325.54,Cash
+1243,53,Male,124601,11,West,7,18,372.28,Credit Card
+1244,43,Female,65607,85,North,4,17,237.54,Credit Card
+1245,60,Female,27812,4,South,2,16,390.78,Cash
+1246,44,Male,81844,71,North,7,8,152.15,Credit Card
+1247,22,Male,90093,26,West,5,13,149.57,Cash
+1248,37,Male,22179,50,East,1,16,122.64,Debit Card
+1249,28,Female,63798,12,West,5,11,217.4,Digital Wallet
+1250,27,Male,94601,95,South,3,6,431.16,Debit Card
+1251,57,Female,28275,81,North,7,3,422.56,Digital Wallet
+1252,55,Male,70574,97,North,6,1,222.27,Cash
+1253,23,Male,67857,75,East,8,18,315.1,Debit Card
+1254,25,Male,145555,92,North,5,5,374.37,Digital Wallet
+1255,40,Male,121484,96,North,2,13,158.54,Cash
+1256,64,Female,40700,65,West,9,10,125.66,Digital Wallet
+1257,43,Female,146855,47,North,8,5,487.44,Credit Card
+1258,63,Male,59464,92,North,6,14,327.9,Credit Card
+1259,60,Female,62351,53,North,10,17,491.64,Cash
+1260,29,Male,113330,71,East,7,1,201.99,Digital Wallet
+1261,43,Male,114319,2,East,9,2,366.36,Credit Card
+1262,30,Male,102534,24,West,7,7,150.17,Debit Card
+1263,57,Male,33869,4,North,3,10,167.54,Digital Wallet
+1264,35,Female,80315,19,East,6,7,280.36,Digital Wallet
+1265,42,Male,130061,26,East,7,16,193.83,Credit Card
+1266,50,Male,113688,75,West,2,5,125.43,Credit Card
+1267,64,Female,40954,40,South,3,12,168.3,Cash
+1268,57,Male,51555,50,North,4,17,66.09,Digital Wallet
+1269,60,Male,83353,43,East,10,16,366.99,Debit Card
+1270,29,Male,102190,75,West,6,16,271.45,Credit Card
+1271,61,Female,65026,67,West,1,19,92.41,Digital Wallet
+1272,53,Male,120772,12,West,9,15,127.26,Credit Card
+1273,65,Female,66976,67,East,5,12,96.14,Cash
+1274,21,Male,100578,27,North,7,10,325.67,Digital Wallet
+1275,22,Male,111502,54,South,9,2,92.39,Digital Wallet
+1276,54,Female,133943,66,North,9,7,389.43,Cash
+1277,25,Male,129850,49,West,1,13,59.23,Debit Card
+1278,59,Male,65095,16,West,1,3,162.22,Credit Card
+1279,66,Female,34270,2,South,3,15,450.8,Cash
+1280,45,Female,50908,60,North,6,1,373.34,Digital Wallet
+1281,48,Female,35523,54,West,2,3,82.84,Cash
+1282,26,Female,82433,30,West,10,10,419.51,Digital Wallet
+1283,68,Female,67068,84,North,1,15,271.87,Cash
+1284,46,Male,39991,38,West,1,6,431.05,Debit Card
+1285,31,Female,30775,28,North,5,15,320.33,Digital Wallet
+1286,57,Male,97801,25,West,4,7,356.82,Cash
+1287,58,Male,104995,96,North,1,5,497.08,Debit Card
+1288,39,Male,81250,10,South,4,4,154.55,Debit Card
+1289,28,Female,36673,60,West,3,18,330.78,Credit Card
+1290,40,Female,142808,42,South,2,3,257.14,Digital Wallet
+1291,18,Male,47056,40,West,9,17,67.75,Credit Card
+1292,63,Female,26614,97,West,1,18,56.51,Debit Card
+1293,54,Female,121556,77,East,7,18,103.65,Credit Card
+1294,38,Female,27415,42,North,4,2,342.09,Credit Card
+1295,43,Female,108691,47,South,5,13,305.22,Cash
+1296,63,Male,134966,37,South,10,15,299.04,Credit Card
+1297,53,Male,63884,80,South,5,5,64.34,Debit Card
+1298,40,Female,36964,22,North,1,3,261.19,Credit Card
+1299,18,Male,57726,57,East,6,5,466.08,Digital Wallet
+1300,68,Female,143133,84,South,9,5,228.92,Cash
+1301,57,Female,57044,27,North,2,5,331.22,Debit Card
+1302,32,Male,77149,41,West,7,3,400.92,Credit Card
+1303,38,Male,57544,80,South,6,3,402.77,Digital Wallet
+1304,64,Male,69976,34,South,5,18,283.68,Debit Card
+1305,26,Female,52252,32,East,4,4,436.08,Credit Card
+1306,26,Male,23832,90,South,4,1,226.12,Cash
+1307,27,Female,110811,89,South,6,16,449.91,Credit Card
+1308,69,Male,100437,66,West,4,8,158.1,Debit Card
+1309,43,Male,123749,12,North,5,17,176.1,Debit Card
+1310,58,Female,54148,40,North,6,8,73.9,Debit Card
+1311,52,Female,81240,73,East,5,7,408.01,Digital Wallet
+1312,69,Female,128169,76,West,7,8,237.67,Credit Card
+1313,42,Female,145607,90,North,9,12,153.1,Credit Card
+1314,43,Female,108454,73,West,10,16,154.31,Credit Card
+1315,28,Female,132230,10,North,7,12,455.63,Cash
+1316,55,Female,148933,96,West,7,19,425.26,Digital Wallet
+1317,19,Female,105076,98,East,4,10,299.09,Digital Wallet
+1318,24,Male,97116,48,South,1,7,327.25,Cash
+1319,35,Female,73459,20,East,8,12,263.45,Digital Wallet
+1320,44,Female,58402,39,North,4,5,226.25,Cash
+1321,51,Male,77727,60,East,1,16,461.96,Debit Card
+1322,44,Female,58578,66,South,5,9,106.53,Debit Card
+1323,34,Male,110453,65,East,8,7,238.3,Digital Wallet
+1324,60,Male,42318,51,North,4,14,205.05,Debit Card
+1325,61,Female,95715,36,North,8,11,274.17,Debit Card
+1326,68,Male,97787,24,East,8,7,255.93,Debit Card
+1327,41,Female,131435,27,South,3,10,283.5,Credit Card
+1328,42,Male,105029,2,East,9,9,112.96,Debit Card
+1329,24,Male,40466,31,South,3,4,280.91,Credit Card
+1330,69,Male,115742,57,West,1,16,159.09,Cash
+1331,23,Female,65475,78,South,2,10,132.95,Cash
+1332,41,Female,80142,66,West,6,19,79.18,Cash
+1333,50,Male,105160,29,East,10,17,393.19,Cash
+1334,66,Male,46564,15,South,2,9,242.35,Cash
+1335,46,Female,42412,12,West,6,13,331.99,Debit Card
+1336,60,Female,113526,28,West,1,1,377.42,Debit Card
+1337,39,Male,71001,84,West,1,2,355.69,Debit Card
+1338,43,Male,77649,24,North,5,13,261.73,Cash
+1339,45,Female,80957,21,East,10,9,224.55,Cash
+1340,67,Female,55517,10,West,9,7,219.18,Credit Card
+1341,38,Female,33156,78,South,8,16,338.02,Digital Wallet
+1342,66,Female,43064,18,West,3,19,272.66,Debit Card
+1343,24,Female,45711,88,North,3,7,432.11,Digital Wallet
+1344,34,Male,50106,14,East,1,6,443.62,Cash
+1345,37,Female,85458,34,North,3,18,126.75,Cash
+1346,58,Male,36589,58,North,1,19,111.31,Cash
+1347,66,Female,109272,76,North,8,11,333.68,Digital Wallet
+1348,37,Male,106511,22,South,1,12,185.55,Credit Card
+1349,39,Female,121754,70,East,5,10,58.36,Cash
+1350,45,Female,27214,36,East,9,13,449.89,Credit Card
+1351,57,Male,116117,45,South,7,12,152.11,Credit Card
+1352,66,Male,105731,36,East,4,10,468.18,Debit Card
+1353,24,Female,130118,22,North,9,18,372.85,Digital Wallet
+1354,18,Female,146479,78,East,9,4,393.19,Cash
+1355,49,Female,47127,80,South,2,5,140.66,Credit Card
+1356,30,Female,25141,61,North,10,5,155.39,Digital Wallet
+1357,47,Female,48884,100,South,10,12,284.57,Digital Wallet
+1358,40,Male,110421,56,West,6,3,127.44,Cash
+1359,68,Male,22708,89,North,4,8,187.44,Debit Card
+1360,36,Female,38375,96,North,8,2,194.66,Debit Card
+1361,49,Male,35088,33,East,7,18,121.83,Credit Card
+1362,47,Male,77615,45,North,7,9,142.33,Debit Card
+1363,46,Male,130138,36,South,10,13,404.85,Debit Card
+1364,66,Female,65046,20,East,9,7,125.24,Debit Card
+1365,62,Male,30014,18,West,5,10,62.81,Digital Wallet
+1366,46,Female,84425,38,South,6,9,333.21,Cash
+1367,47,Male,23273,67,West,1,15,489.19,Digital Wallet
+1368,33,Female,67135,23,West,6,5,199.05,Digital Wallet
+1369,57,Male,122842,96,West,2,12,103.4,Cash
+1370,36,Female,50881,16,North,6,1,306.67,Digital Wallet
+1371,35,Female,117022,59,South,9,12,457.86,Credit Card
+1372,18,Male,98077,69,South,8,6,402.83,Credit Card
+1373,31,Female,28712,68,North,9,19,330.13,Digital Wallet
+1374,68,Female,94704,21,East,10,19,191.78,Debit Card
+1375,64,Female,72874,78,West,8,16,293.85,Digital Wallet
+1376,67,Female,89087,95,South,3,19,91.06,Debit Card
+1377,19,Female,32297,78,North,8,3,355.53,Digital Wallet
+1378,45,Female,129269,70,West,6,10,376.29,Credit Card
+1379,66,Female,47128,12,East,6,18,484.26,Debit Card
+1380,67,Female,88368,16,East,6,13,167.18,Credit Card
+1381,47,Male,114019,81,West,3,18,58.31,Digital Wallet
+1382,55,Male,107599,87,East,10,3,295.52,Cash
+1383,68,Female,108499,14,South,1,3,368.06,Debit Card
+1384,21,Female,98958,61,South,4,12,405.68,Debit Card
+1385,18,Male,52920,71,South,10,7,137.18,Digital Wallet
+1386,25,Male,140442,46,East,6,8,167.79,Digital Wallet
+1387,46,Male,31156,32,South,10,9,280.67,Debit Card
+1388,56,Female,31108,15,North,2,14,198.77,Cash
+1389,20,Male,51845,44,South,7,5,437.23,Digital Wallet
+1390,49,Female,22800,17,South,7,19,263.19,Digital Wallet
+1391,27,Female,148832,41,East,4,16,409.81,Digital Wallet
+1392,27,Male,123614,54,South,4,12,311.28,Cash
+1393,36,Female,62712,44,West,1,4,397.89,Debit Card
+1394,63,Female,22610,98,North,2,8,199.7,Credit Card
+1395,51,Female,97603,5,East,9,7,424.14,Digital Wallet
+1396,50,Female,53872,27,North,10,15,173.56,Cash
+1397,40,Male,30728,87,West,8,6,295.74,Debit Card
+1398,45,Male,115102,78,East,8,5,146.3,Debit Card
+1399,49,Female,115319,79,East,9,14,263.99,Cash
+1400,67,Female,142049,43,South,7,13,193.18,Digital Wallet
+1401,24,Male,40583,97,North,9,10,170.02,Credit Card
+1402,46,Female,105774,31,West,10,18,485.14,Digital Wallet
+1403,25,Male,27263,99,West,2,4,122.03,Debit Card
+1404,18,Female,146374,17,East,6,8,404.3,Credit Card
+1405,20,Female,87450,92,South,3,11,492.87,Digital Wallet
+1406,41,Male,109285,83,East,6,17,58.96,Credit Card
+1407,40,Male,39456,54,East,3,18,364.56,Cash
+1408,25,Male,111118,62,East,8,11,163.81,Digital Wallet
+1409,64,Male,85942,87,East,4,16,68.22,Debit Card
+1410,54,Female,33689,32,West,10,12,231.3,Debit Card
+1411,20,Male,52934,40,West,6,13,470.85,Credit Card
+1412,68,Female,53276,13,East,9,16,55.29,Cash
+1413,50,Male,136349,84,East,2,1,314.55,Digital Wallet
+1414,45,Male,149336,35,South,2,16,275.63,Cash
+1415,64,Female,121968,5,East,7,15,443.02,Cash
+1416,25,Male,39873,73,West,2,6,87.8,Credit Card
+1417,51,Male,33050,29,North,2,12,356.69,Credit Card
+1418,52,Male,86216,70,West,4,8,356.05,Digital Wallet
+1419,49,Male,104444,25,South,9,7,351.09,Debit Card
+1420,41,Female,104040,95,West,8,2,474.05,Digital Wallet
+1421,31,Female,41644,22,North,2,12,420.39,Cash
+1422,49,Male,82021,66,East,8,14,68.89,Credit Card
+1423,63,Male,57125,45,North,4,16,261.99,Cash
+1424,60,Male,86899,69,East,2,11,229.08,Credit Card
+1425,33,Female,62291,91,East,10,9,189.57,Debit Card
+1426,21,Female,55060,89,West,7,10,253.1,Cash
+1427,69,Female,21538,72,West,6,17,222.89,Credit Card
+1428,54,Female,56176,1,West,10,12,244.55,Digital Wallet
+1429,38,Male,142430,84,South,5,6,490.67,Digital Wallet
+1430,31,Male,61520,44,West,1,19,89.88,Digital Wallet
+1431,48,Male,45675,87,South,2,11,465.0,Cash
+1432,65,Female,38287,96,West,8,9,266.11,Credit Card
+1433,35,Male,20174,75,East,1,6,330.68,Credit Card
+1434,24,Female,112268,39,South,3,16,423.58,Credit Card
+1435,27,Female,54998,54,North,2,16,212.21,Cash
+1436,24,Male,122591,88,South,5,6,243.69,Credit Card
+1437,50,Male,73312,75,South,4,5,234.28,Debit Card
+1438,40,Male,32112,29,North,7,4,218.63,Cash
+1439,38,Female,125410,54,South,5,2,466.49,Debit Card
+1440,36,Female,95225,90,East,8,6,423.02,Debit Card
+1441,65,Male,64814,16,West,4,9,99.05,Digital Wallet
+1442,36,Male,105091,99,North,6,17,98.66,Cash
+1443,53,Female,70719,20,West,4,14,242.54,Credit Card
+1444,46,Male,149887,46,East,2,7,94.4,Debit Card
+1445,35,Female,53919,67,North,1,19,328.59,Cash
+1446,19,Female,93155,65,West,1,1,114.66,Credit Card
+1447,18,Male,91569,58,West,8,15,285.07,Digital Wallet
+1448,64,Male,61328,53,East,4,18,53.25,Cash
+1449,22,Male,90482,1,West,5,3,192.47,Cash
+1450,37,Male,44618,81,East,8,18,354.74,Cash
+1451,28,Female,54675,66,South,7,2,267.82,Credit Card
+1452,59,Female,121794,29,East,8,10,490.22,Debit Card
+1453,19,Female,38919,84,South,8,11,443.35,Debit Card
+1454,20,Male,24173,70,North,6,3,211.58,Cash
+1455,40,Female,129369,8,West,10,7,70.47,Cash
+1456,29,Male,46400,29,East,2,8,430.53,Credit Card
+1457,37,Male,70445,51,East,6,19,460.06,Digital Wallet
+1458,22,Male,90305,33,West,1,18,419.28,Cash
+1459,54,Male,57564,3,West,1,13,107.58,Cash
+1460,55,Male,65814,60,North,3,13,499.06,Digital Wallet
+1461,47,Male,99747,35,North,3,19,166.36,Cash
+1462,26,Female,108791,69,East,5,12,375.89,Debit Card
+1463,51,Male,47962,91,North,1,17,458.62,Cash
+1464,61,Female,104892,76,South,10,12,156.06,Debit Card
+1465,52,Female,105842,84,North,6,13,458.72,Credit Card
+1466,69,Male,90533,20,North,7,12,189.27,Credit Card
+1467,39,Male,76184,73,East,10,19,489.39,Debit Card
+1468,61,Male,102912,39,South,3,14,176.57,Debit Card
+1469,41,Female,126416,4,North,4,7,479.05,Digital Wallet
+1470,34,Male,123591,19,South,10,13,74.1,Debit Card
+1471,27,Female,30578,91,South,10,6,369.17,Debit Card
+1472,47,Male,38624,45,South,10,19,289.45,Cash
+1473,63,Male,136164,43,West,10,19,265.04,Digital Wallet
+1474,40,Female,59194,13,West,10,4,150.57,Debit Card
+1475,49,Female,129903,13,West,3,19,367.52,Debit Card
+1476,34,Male,20389,60,West,1,9,135.86,Debit Card
+1477,67,Female,119303,57,East,8,16,298.78,Cash
+1478,68,Female,131116,86,North,10,4,163.96,Cash
+1479,34,Female,133903,92,West,10,6,480.03,Cash
+1480,31,Female,87391,52,East,2,8,62.88,Credit Card
+1481,26,Female,126429,53,North,1,16,139.88,Cash
+1482,57,Male,33794,86,West,8,5,159.04,Debit Card
+1483,19,Male,78002,43,North,7,10,236.33,Cash
+1484,62,Female,55531,83,West,7,13,154.73,Cash
+1485,42,Male,72815,72,East,4,14,271.11,Digital Wallet
+1486,56,Male,24986,72,South,9,7,442.61,Debit Card
+1487,26,Female,52298,42,South,6,6,370.43,Cash
+1488,39,Male,21481,90,North,2,7,310.98,Credit Card
+1489,60,Female,76408,26,East,1,5,90.05,Digital Wallet
+1490,63,Female,89267,23,South,1,18,362.3,Cash
+1491,21,Male,141950,43,West,9,12,124.89,Digital Wallet
+1492,43,Female,36835,77,South,4,6,403.87,Digital Wallet
+1493,46,Female,145355,28,North,5,1,162.53,Credit Card
+1494,62,Female,47798,9,North,3,4,237.67,Credit Card
+1495,51,Female,111649,20,East,4,19,207.71,Credit Card
+1496,40,Female,84887,56,North,8,12,436.47,Debit Card
+1497,54,Male,39477,83,South,4,15,106.95,Digital Wallet
+1498,28,Male,37266,39,South,9,3,304.54,Cash
+1499,23,Female,106328,51,South,9,8,113.93,Credit Card
+1500,35,Female,105988,12,South,6,11,367.16,Credit Card
+1501,38,Male,147815,79,East,2,16,457.29,Digital Wallet
+1502,59,Female,63526,95,West,10,9,245.57,Digital Wallet
+1503,53,Male,137965,55,West,7,3,269.64,Digital Wallet
+1504,58,Female,134615,78,East,9,5,467.34,Cash
+1505,55,Female,126870,11,North,6,14,284.45,Debit Card
+1506,51,Female,147426,26,West,3,15,269.42,Debit Card
+1507,34,Female,31889,42,North,7,6,310.25,Credit Card
+1508,54,Female,44335,27,West,5,4,360.15,Debit Card
+1509,42,Female,31254,11,North,1,8,98.1,Cash
+1510,55,Female,106610,38,East,3,19,419.5,Debit Card
+1511,29,Male,31442,98,South,5,5,245.98,Cash
+1512,40,Male,66289,43,North,7,13,82.56,Credit Card
+1513,59,Male,73747,19,South,3,16,403.78,Digital Wallet
+1514,39,Female,57327,64,North,6,1,219.63,Cash
+1515,38,Female,36199,6,North,5,13,95.17,Digital Wallet
+1516,44,Female,92827,46,North,1,11,335.2,Credit Card
+1517,48,Female,126464,42,North,10,8,446.06,Cash
+1518,23,Female,20112,92,North,6,8,449.49,Cash
+1519,44,Female,107051,65,South,8,14,480.95,Debit Card
+1520,57,Female,39581,99,North,1,13,440.47,Cash
+1521,51,Male,134228,72,South,2,3,50.96,Credit Card
+1522,29,Female,79722,59,East,4,4,221.11,Digital Wallet
+1523,62,Male,112036,52,West,2,15,418.34,Cash
+1524,24,Male,117562,47,North,9,15,214.81,Credit Card
+1525,27,Female,36523,7,West,10,13,320.7,Credit Card
+1526,62,Female,86960,11,South,8,9,322.84,Cash
+1527,34,Male,137637,61,East,8,10,214.26,Debit Card
+1528,43,Male,39552,68,East,4,12,457.01,Cash
+1529,38,Female,143396,25,East,5,14,276.45,Cash
+1530,45,Female,30808,12,West,4,1,259.15,Debit Card
+1531,63,Male,124347,26,South,9,14,498.88,Credit Card
+1532,19,Female,92525,12,North,2,14,272.08,Cash
+1533,60,Female,43620,43,North,8,8,130.28,Debit Card
+1534,18,Female,124565,51,South,2,16,280.88,Digital Wallet
+1535,68,Male,20887,37,West,1,14,416.31,Digital Wallet
+1536,53,Male,51802,46,North,10,1,399.59,Debit Card
+1537,68,Male,105024,53,South,3,16,404.86,Credit Card
+1538,43,Female,115549,88,North,9,18,368.61,Debit Card
+1539,46,Female,134737,80,East,3,7,164.4,Credit Card
+1540,38,Male,138639,13,North,9,15,437.94,Digital Wallet
+1541,28,Male,138248,89,West,7,17,452.05,Cash
+1542,57,Male,101938,54,South,10,19,137.37,Debit Card
+1543,28,Female,106741,57,West,1,13,108.71,Digital Wallet
+1544,53,Male,141028,4,South,10,9,489.02,Cash
+1545,66,Male,142746,75,East,5,15,440.75,Digital Wallet
+1546,56,Female,46049,96,South,9,3,451.96,Debit Card
+1547,57,Female,97789,49,North,3,1,448.87,Debit Card
+1548,52,Female,104526,7,North,9,16,293.76,Cash
+1549,51,Male,27846,11,East,5,8,340.88,Debit Card
+1550,64,Female,110563,92,South,9,13,295.41,Digital Wallet
+1551,41,Female,124736,54,East,10,8,73.04,Cash
+1552,39,Male,66220,87,North,6,17,385.48,Cash
+1553,22,Female,66163,45,West,9,14,277.4,Digital Wallet
+1554,50,Male,23765,23,East,7,7,341.47,Credit Card
+1555,53,Male,137126,28,West,7,15,276.19,Cash
+1556,64,Female,101486,57,West,8,16,271.32,Credit Card
+1557,37,Female,65270,26,South,7,19,127.31,Digital Wallet
+1558,36,Female,95277,25,East,9,6,175.42,Digital Wallet
+1559,52,Female,108278,54,West,9,1,121.48,Cash
+1560,69,Female,146354,29,West,6,12,138.05,Debit Card
+1561,60,Female,110239,83,South,7,18,487.84,Cash
+1562,34,Male,124245,97,South,2,16,118.9,Debit Card
+1563,62,Male,142332,36,North,9,12,171.17,Credit Card
+1564,60,Female,123159,14,West,1,13,315.77,Debit Card
+1565,51,Male,42931,78,North,1,8,324.58,Cash
+1566,26,Female,109116,35,West,3,1,119.29,Debit Card
+1567,43,Male,140599,30,North,6,7,407.17,Digital Wallet
+1568,19,Male,75633,92,South,5,15,403.34,Credit Card
+1569,26,Male,100702,17,East,2,13,156.79,Digital Wallet
+1570,26,Female,71913,67,South,9,13,179.9,Digital Wallet
+1571,57,Male,139144,80,North,10,9,472.09,Digital Wallet
+1572,34,Female,114776,30,North,4,15,421.55,Digital Wallet
+1573,18,Male,45991,93,East,4,4,364.01,Debit Card
+1574,42,Male,141049,45,West,5,13,87.0,Digital Wallet
+1575,60,Male,74845,79,North,8,12,238.22,Debit Card
+1576,57,Male,124092,89,North,10,5,301.69,Digital Wallet
+1577,59,Male,118505,51,North,4,7,134.34,Cash
+1578,42,Female,75312,47,East,5,8,251.7,Digital Wallet
+1579,56,Female,30561,53,South,4,5,320.46,Cash
+1580,52,Male,36901,64,North,6,9,197.32,Debit Card
+1581,20,Male,126041,38,East,3,14,401.43,Credit Card
+1582,67,Male,115556,64,North,8,12,428.2,Debit Card
+1583,54,Male,82875,87,West,6,4,195.62,Credit Card
+1584,61,Female,45917,89,East,10,8,427.4,Credit Card
+1585,61,Male,82120,7,North,5,17,96.61,Digital Wallet
+1586,68,Female,21988,22,East,2,8,426.98,Credit Card
+1587,47,Male,133745,81,North,10,1,118.74,Debit Card
+1588,55,Female,130041,82,South,10,2,87.32,Digital Wallet
+1589,51,Male,148467,41,North,7,4,338.8,Credit Card
+1590,29,Male,147400,74,East,2,1,262.37,Debit Card
+1591,36,Female,34256,10,West,1,7,458.55,Credit Card
+1592,54,Male,138490,57,West,7,1,213.44,Credit Card
+1593,61,Male,107728,7,West,5,9,179.22,Digital Wallet
+1594,66,Male,146155,50,North,1,3,275.33,Digital Wallet
+1595,34,Female,48230,91,South,4,12,255.18,Debit Card
+1596,27,Male,125466,52,North,4,19,204.99,Digital Wallet
+1597,66,Male,79778,33,West,10,15,362.18,Digital Wallet
+1598,64,Female,65833,1,East,7,16,391.8,Cash
+1599,29,Female,42625,53,West,9,10,433.84,Cash
+1600,33,Female,52088,60,East,2,6,487.79,Debit Card
+1601,41,Male,99650,34,South,1,17,170.0,Digital Wallet
+1602,36,Male,61167,4,East,2,17,372.24,Debit Card
+1603,25,Male,123937,17,North,7,19,227.42,Cash
+1604,48,Female,91291,4,North,10,18,354.69,Cash
+1605,38,Male,85303,43,North,6,11,264.19,Cash
+1606,34,Male,96361,90,East,4,7,497.2,Debit Card
+1607,40,Female,108229,4,North,1,10,378.01,Digital Wallet
+1608,54,Female,24117,1,North,1,7,478.62,Credit Card
+1609,33,Female,110265,71,North,5,5,425.74,Digital Wallet
+1610,23,Female,148938,94,South,1,12,456.31,Debit Card
+1611,25,Female,117718,50,East,7,16,416.49,Cash
+1612,42,Male,80710,73,East,1,18,256.62,Credit Card
+1613,35,Female,114426,61,West,1,3,163.3,Debit Card
+1614,42,Male,114876,35,East,2,15,216.64,Cash
+1615,29,Male,87054,8,South,10,5,59.11,Debit Card
+1616,32,Female,50949,24,East,3,13,285.8,Credit Card
+1617,43,Female,42547,83,South,1,19,277.28,Cash
+1618,58,Female,101882,36,South,9,12,286.36,Digital Wallet
+1619,62,Male,88136,50,East,10,5,488.31,Debit Card
+1620,43,Female,131541,43,West,8,6,460.15,Credit Card
+1621,64,Female,136883,27,North,5,7,122.77,Digital Wallet
+1622,49,Female,84619,32,North,2,10,216.0,Credit Card
+1623,27,Female,81842,78,East,5,16,240.78,Debit Card
+1624,33,Female,114803,18,East,6,8,212.24,Credit Card
+1625,24,Male,121858,28,South,1,9,409.32,Cash
+1626,34,Male,46990,29,East,4,4,285.82,Credit Card
+1627,40,Male,36193,16,South,9,8,307.44,Debit Card
+1628,43,Female,50109,99,West,2,7,433.86,Cash
+1629,38,Female,39233,47,East,5,15,412.67,Credit Card
+1630,39,Female,133557,59,North,1,3,109.5,Credit Card
+1631,24,Male,101730,31,North,4,17,371.26,Cash
+1632,31,Female,148133,4,East,4,11,245.95,Digital Wallet
+1633,32,Female,54510,37,South,6,9,182.59,Digital Wallet
+1634,24,Female,21306,17,North,10,5,72.51,Cash
+1635,26,Male,23849,39,South,9,10,269.26,Credit Card
+1636,68,Female,32360,48,East,3,15,209.95,Digital Wallet
+1637,65,Male,131072,46,East,9,14,163.18,Cash
+1638,25,Female,142207,90,North,6,4,362.6,Debit Card
+1639,67,Male,114767,48,East,7,2,396.27,Credit Card
+1640,40,Male,65800,39,West,10,12,160.16,Debit Card
+1641,46,Male,148442,4,West,2,1,72.25,Credit Card
+1642,35,Female,56963,30,North,10,5,431.94,Digital Wallet
+1643,48,Female,74330,30,West,6,6,54.48,Debit Card
+1644,47,Male,71707,22,South,6,11,471.7,Debit Card
+1645,69,Male,38689,75,North,2,8,332.43,Cash
+1646,56,Female,49084,66,North,2,7,194.83,Digital Wallet
+1647,52,Female,60387,12,South,2,4,160.92,Digital Wallet
+1648,35,Male,94816,94,West,10,6,54.05,Credit Card
+1649,59,Female,22642,36,West,1,16,155.96,Cash
+1650,56,Female,62137,18,West,5,15,111.98,Cash
+1651,34,Female,99832,90,North,8,14,325.47,Credit Card
+1652,31,Female,75561,53,North,2,12,124.95,Debit Card
+1653,48,Male,82260,71,West,5,12,287.88,Credit Card
+1654,41,Female,35438,1,East,8,16,315.55,Credit Card
+1655,52,Female,68442,58,West,10,15,184.12,Credit Card
+1656,61,Male,123061,90,South,5,13,65.78,Cash
+1657,62,Male,22994,87,North,2,11,66.76,Credit Card
+1658,51,Female,143439,90,South,3,17,61.86,Credit Card
+1659,20,Female,145844,6,South,6,15,382.61,Credit Card
+1660,54,Female,133530,70,North,5,14,193.1,Digital Wallet
+1661,60,Female,119575,44,East,4,10,408.34,Debit Card
+1662,57,Male,21813,72,West,4,12,244.28,Debit Card
+1663,43,Male,113027,24,South,5,16,253.85,Debit Card
+1664,40,Male,143489,86,North,2,15,280.8,Debit Card
+1665,61,Female,104381,19,South,9,10,370.86,Cash
+1666,56,Female,138808,18,West,2,4,173.08,Cash
+1667,32,Female,75276,95,East,10,9,104.71,Credit Card
+1668,66,Female,61243,30,East,2,9,300.23,Cash
+1669,21,Male,82912,42,East,10,11,197.14,Debit Card
+1670,46,Male,80272,33,North,9,11,249.12,Digital Wallet
+1671,39,Female,122700,74,North,3,7,341.13,Credit Card
+1672,42,Male,62051,12,East,10,10,272.36,Credit Card
+1673,30,Female,98854,94,West,7,4,329.13,Debit Card
+1674,35,Female,102736,27,West,4,5,294.89,Debit Card
+1675,50,Male,141992,39,North,6,5,382.91,Debit Card
+1676,33,Female,142019,9,East,4,11,367.67,Cash
+1677,62,Female,85618,21,West,10,9,290.39,Credit Card
+1678,59,Male,21920,76,West,7,16,355.51,Debit Card
+1679,61,Female,126121,29,West,1,9,443.1,Digital Wallet
+1680,19,Female,97219,33,North,3,4,244.52,Credit Card
+1681,52,Male,96872,62,East,3,2,235.74,Credit Card
+1682,59,Female,101132,15,South,1,14,393.91,Cash
+1683,51,Male,22093,2,East,6,3,312.15,Credit Card
+1684,47,Female,32905,52,East,9,18,81.95,Debit Card
+1685,30,Male,141759,44,North,8,6,451.45,Debit Card
+1686,30,Male,44351,54,West,7,11,63.85,Digital Wallet
+1687,35,Male,50981,18,West,10,18,386.78,Credit Card
+1688,49,Female,93903,3,North,8,12,391.46,Credit Card
+1689,49,Male,90821,7,North,6,5,478.9,Cash
+1690,52,Male,129200,43,North,9,9,74.36,Debit Card
+1691,56,Male,123241,82,North,3,18,318.59,Digital Wallet
+1692,63,Male,102289,38,North,10,19,242.53,Debit Card
+1693,69,Male,136506,37,South,10,3,198.78,Credit Card
+1694,46,Female,104021,58,East,9,9,90.64,Credit Card
+1695,66,Female,98513,33,East,4,4,303.19,Digital Wallet
+1696,46,Female,39874,59,East,7,17,265.57,Credit Card
+1697,61,Female,70931,95,West,9,17,97.05,Digital Wallet
+1698,33,Female,27674,11,South,2,2,325.62,Digital Wallet
+1699,61,Female,70516,68,East,2,9,382.08,Debit Card
+1700,64,Female,141982,82,West,9,9,395.28,Digital Wallet
+1701,27,Male,148408,68,South,3,5,457.42,Credit Card
+1702,47,Female,114574,98,South,9,15,234.26,Cash
+1703,42,Male,80686,93,West,5,15,478.88,Cash
+1704,56,Male,114851,88,South,6,3,439.44,Credit Card
+1705,37,Female,89212,22,West,2,19,183.43,Cash
+1706,22,Male,22426,66,East,8,3,121.68,Cash
+1707,18,Male,142952,44,West,9,6,245.93,Digital Wallet
+1708,47,Male,110009,6,South,2,4,230.85,Cash
+1709,66,Male,88498,42,East,6,13,309.07,Cash
+1710,20,Female,49943,25,East,6,13,312.52,Cash
+1711,62,Female,86395,57,North,8,11,387.49,Debit Card
+1712,31,Female,64816,85,North,10,5,279.45,Credit Card
+1713,47,Female,24138,55,South,5,1,97.17,Digital Wallet
+1714,67,Female,120728,16,West,9,9,436.23,Cash
+1715,21,Female,111176,95,West,1,17,189.39,Credit Card
+1716,35,Female,95945,14,South,9,1,487.08,Cash
+1717,54,Female,24017,39,East,10,3,103.04,Debit Card
+1718,42,Female,30451,28,South,7,15,481.21,Debit Card
+1719,65,Female,82956,96,South,4,10,90.96,Cash
+1720,18,Male,113863,92,East,3,8,153.97,Cash
+1721,63,Female,30278,51,West,10,12,70.96,Cash
+1722,32,Male,110480,49,South,6,15,367.3,Debit Card
+1723,26,Male,63764,9,West,1,9,432.63,Debit Card
+1724,32,Male,143030,58,South,3,10,245.33,Credit Card
+1725,66,Male,21134,45,East,2,9,467.83,Digital Wallet
+1726,41,Female,82943,22,East,9,15,315.63,Digital Wallet
+1727,21,Male,115667,32,North,3,1,333.5,Debit Card
+1728,29,Female,74318,69,East,2,2,430.44,Digital Wallet
+1729,54,Female,123423,87,North,4,19,183.56,Cash
+1730,54,Male,123998,69,South,2,14,209.42,Credit Card
+1731,60,Female,80128,42,West,1,8,457.68,Debit Card
+1732,23,Male,108056,53,East,6,6,455.43,Debit Card
+1733,56,Male,41869,96,East,10,12,489.42,Digital Wallet
+1734,63,Female,122468,59,East,8,15,455.83,Cash
+1735,41,Female,137034,74,South,10,14,107.32,Credit Card
+1736,28,Male,25039,39,North,10,1,420.68,Digital Wallet
+1737,30,Female,41281,15,South,2,11,234.43,Debit Card
+1738,51,Female,132935,71,West,9,3,495.86,Debit Card
+1739,42,Female,30442,29,South,3,19,262.53,Digital Wallet
+1740,24,Male,93788,3,West,8,18,299.23,Cash
+1741,69,Male,139729,83,East,8,2,288.4,Credit Card
+1742,21,Female,47586,10,West,3,7,194.78,Credit Card
+1743,25,Female,73053,92,West,3,8,83.76,Credit Card
+1744,37,Female,70489,29,North,6,19,453.04,Credit Card
+1745,46,Female,103104,79,West,1,15,411.2,Cash
+1746,68,Female,106346,35,West,4,10,112.79,Debit Card
+1747,62,Male,87087,6,South,1,1,399.55,Debit Card
+1748,63,Female,32625,12,East,3,6,331.63,Credit Card
+1749,27,Male,54397,38,South,9,13,234.11,Credit Card
+1750,60,Female,78671,77,South,5,14,164.31,Credit Card
+1751,51,Male,136214,93,East,5,3,436.88,Digital Wallet
+1752,43,Female,111785,19,East,4,11,365.08,Digital Wallet
+1753,58,Male,86897,67,West,3,3,296.48,Debit Card
+1754,66,Female,46149,8,West,5,19,324.31,Debit Card
+1755,20,Male,80030,8,North,4,10,90.98,Credit Card
+1756,23,Male,89906,84,South,8,15,263.26,Digital Wallet
+1757,22,Male,25283,47,East,4,11,137.17,Cash
+1758,22,Male,27610,4,West,8,15,143.77,Digital Wallet
+1759,64,Male,63326,51,East,6,13,347.59,Debit Card
+1760,40,Male,34924,85,West,5,5,460.07,Digital Wallet
+1761,66,Female,133143,67,North,4,4,231.69,Debit Card
+1762,26,Male,130253,45,North,4,13,143.49,Credit Card
+1763,52,Female,96162,8,East,4,9,341.94,Cash
+1764,37,Female,120297,87,North,9,17,442.03,Credit Card
+1765,66,Female,20869,16,East,4,2,386.74,Credit Card
+1766,59,Female,117088,77,West,9,5,440.94,Cash
+1767,52,Female,21014,67,South,10,16,291.45,Cash
+1768,67,Male,30103,9,North,6,7,388.34,Cash
+1769,35,Male,102522,60,West,10,1,113.03,Debit Card
+1770,34,Male,130317,78,South,7,12,206.72,Credit Card
+1771,41,Female,116007,77,South,10,11,225.3,Debit Card
+1772,20,Male,53458,71,South,3,12,280.08,Cash
+1773,49,Male,110605,15,West,8,19,468.08,Debit Card
+1774,52,Male,102409,71,West,3,12,443.43,Cash
+1775,55,Male,43248,98,East,1,12,110.54,Digital Wallet
+1776,30,Male,109160,41,South,10,14,127.76,Cash
+1777,64,Female,63516,22,South,5,2,210.94,Credit Card
+1778,42,Male,49061,24,South,2,2,180.83,Credit Card
+1779,26,Female,44170,44,East,10,4,326.65,Credit Card
+1780,21,Female,28024,1,South,6,16,456.25,Debit Card
+1781,31,Female,102214,10,West,10,10,483.03,Credit Card
+1782,54,Female,123792,80,South,9,13,344.12,Cash
+1783,51,Female,105947,72,North,1,2,427.17,Digital Wallet
+1784,28,Male,63803,56,West,4,3,286.34,Credit Card
+1785,58,Male,39296,89,East,1,19,143.75,Debit Card
+1786,20,Male,111829,50,South,1,6,286.11,Digital Wallet
+1787,45,Female,112708,12,North,8,19,299.79,Credit Card
+1788,46,Male,106664,89,East,2,19,384.11,Credit Card
+1789,26,Male,38257,81,East,1,8,148.95,Digital Wallet
+1790,20,Female,32855,60,West,8,14,215.74,Credit Card
+1791,42,Female,105178,26,East,4,10,213.81,Debit Card
+1792,51,Female,149876,78,East,3,3,481.75,Cash
+1793,29,Female,121121,41,East,4,6,249.78,Cash
+1794,59,Male,143324,36,East,5,15,389.79,Digital Wallet
+1795,26,Female,40025,23,South,1,18,387.87,Cash
+1796,32,Female,24458,43,South,1,14,169.49,Credit Card
+1797,57,Male,83610,6,South,3,19,307.34,Credit Card
+1798,42,Male,90843,69,South,6,10,452.44,Debit Card
+1799,22,Female,127237,43,North,1,15,263.84,Cash
+1800,28,Male,103961,25,South,2,4,475.3,Digital Wallet
+1801,51,Female,69831,18,East,7,2,146.51,Credit Card
+1802,41,Female,63427,62,South,1,3,83.37,Digital Wallet
+1803,32,Male,113809,13,South,7,7,451.15,Credit Card
+1804,55,Male,58506,43,West,4,16,431.46,Credit Card
+1805,25,Female,25668,78,East,10,10,496.67,Debit Card
+1806,22,Female,111470,28,South,6,19,355.73,Cash
+1807,65,Female,67195,18,South,8,17,471.51,Debit Card
+1808,43,Male,93233,59,South,9,19,422.13,Cash
+1809,35,Female,44417,60,North,6,5,429.99,Digital Wallet
+1810,23,Female,101982,63,South,9,13,306.11,Cash
+1811,54,Female,126133,57,West,4,13,222.06,Digital Wallet
+1812,65,Female,30751,92,East,6,11,470.55,Credit Card
+1813,30,Female,66218,51,East,8,11,244.45,Digital Wallet
+1814,45,Male,146649,56,South,9,16,292.47,Digital Wallet
+1815,22,Female,27352,27,South,3,15,250.75,Credit Card
+1816,30,Female,99052,32,South,2,17,304.17,Digital Wallet
+1817,34,Female,108835,9,East,6,18,261.73,Digital Wallet
+1818,67,Female,117493,96,East,4,19,71.59,Credit Card
+1819,57,Male,48927,84,North,1,4,446.92,Credit Card
+1820,62,Male,61094,92,West,8,5,249.98,Credit Card
+1821,49,Male,121948,97,North,9,7,315.02,Cash
+1822,46,Female,74122,68,West,9,2,112.63,Credit Card
+1823,68,Female,49493,46,North,2,1,51.52,Credit Card
+1824,20,Male,112247,98,East,9,12,160.38,Digital Wallet
+1825,57,Male,93539,67,North,7,10,367.06,Debit Card
+1826,51,Male,51707,26,West,5,8,94.64,Debit Card
+1827,57,Female,88814,8,South,7,1,459.0,Cash
+1828,44,Female,27296,6,West,9,12,146.76,Cash
+1829,30,Male,45398,80,South,8,2,142.07,Debit Card
+1830,62,Male,55842,24,East,6,10,131.68,Debit Card
+1831,50,Male,33261,48,West,4,17,56.29,Credit Card
+1832,23,Female,96709,94,North,1,3,397.31,Digital Wallet
+1833,41,Female,115985,45,West,6,7,443.77,Credit Card
+1834,36,Female,126616,13,South,3,12,326.37,Cash
+1835,33,Male,76704,69,East,6,8,134.69,Debit Card
+1836,57,Male,87173,25,North,6,12,178.38,Cash
+1837,45,Female,51781,20,West,4,3,264.17,Credit Card
+1838,50,Male,33652,82,South,2,17,479.46,Cash
+1839,65,Female,25103,82,North,9,9,161.31,Cash
+1840,58,Male,45500,66,East,2,10,379.24,Digital Wallet
+1841,30,Male,135332,74,North,3,6,247.75,Cash
+1842,60,Male,120336,45,East,10,1,184.03,Credit Card
+1843,62,Male,55529,47,North,1,12,255.16,Digital Wallet
+1844,42,Female,133499,63,West,7,5,82.04,Cash
+1845,59,Male,38452,76,South,1,13,409.41,Credit Card
+1846,53,Female,69393,77,West,9,15,159.49,Debit Card
+1847,44,Female,51174,55,West,1,11,376.44,Digital Wallet
+1848,55,Female,84450,75,East,5,8,80.76,Cash
+1849,24,Male,55436,19,East,7,5,479.79,Cash
+1850,22,Female,67406,35,East,3,2,136.86,Digital Wallet
+1851,60,Female,83059,53,West,9,12,447.23,Credit Card
+1852,62,Female,35954,26,North,8,2,414.26,Cash
+1853,68,Male,102722,14,North,3,16,485.54,Credit Card
+1854,48,Male,139747,45,West,5,3,265.05,Digital Wallet
+1855,40,Female,32356,44,West,7,10,377.33,Cash
+1856,59,Male,148128,88,South,4,19,216.82,Debit Card
+1857,27,Female,118499,65,East,5,8,132.97,Debit Card
+1858,49,Female,22187,51,East,3,7,249.38,Debit Card
+1859,60,Male,97243,43,West,9,1,124.59,Digital Wallet
+1860,47,Female,55098,86,West,10,12,491.92,Cash
+1861,56,Male,112471,23,North,9,5,93.31,Digital Wallet
+1862,48,Male,41225,56,West,7,16,315.15,Cash
+1863,35,Female,23606,19,North,10,4,331.91,Debit Card
+1864,53,Male,148664,82,West,2,17,292.14,Debit Card
+1865,19,Male,77620,76,South,7,2,347.98,Credit Card
+1866,31,Female,52828,55,South,7,12,102.28,Digital Wallet
+1867,30,Female,146270,92,North,5,1,299.76,Digital Wallet
+1868,46,Male,46489,92,East,9,12,179.25,Credit Card
+1869,29,Male,34387,60,South,3,12,473.08,Debit Card
+1870,56,Female,89463,59,North,4,12,392.93,Debit Card
+1871,19,Male,91832,33,West,1,19,487.63,Digital Wallet
+1872,49,Male,115980,19,West,6,17,66.9,Cash
+1873,30,Male,131926,28,North,4,11,178.31,Debit Card
+1874,63,Male,132429,52,East,1,13,137.94,Credit Card
+1875,44,Male,22591,49,North,2,8,55.02,Credit Card
+1876,66,Male,143446,37,North,3,10,159.05,Credit Card
+1877,58,Male,130431,26,South,9,8,355.45,Digital Wallet
+1878,34,Female,68516,99,North,8,8,153.99,Digital Wallet
+1879,57,Female,111683,98,North,7,9,279.05,Digital Wallet
+1880,48,Female,82061,99,West,4,7,449.52,Digital Wallet
+1881,51,Female,124425,40,South,1,14,362.19,Credit Card
+1882,41,Female,86736,80,West,8,2,227.58,Credit Card
+1883,62,Male,101257,38,West,4,11,217.61,Digital Wallet
+1884,52,Male,81753,77,East,3,8,255.08,Digital Wallet
+1885,65,Male,104774,87,East,9,13,129.67,Credit Card
+1886,23,Male,31087,54,South,10,15,335.3,Digital Wallet
+1887,36,Female,50816,22,South,4,3,213.87,Digital Wallet
+1888,47,Male,43408,16,East,4,14,433.56,Digital Wallet
+1889,24,Male,144116,28,East,9,15,390.45,Digital Wallet
+1890,27,Female,125276,35,East,2,2,324.73,Debit Card
+1891,58,Male,20136,60,East,5,19,213.89,Digital Wallet
+1892,49,Male,37413,45,East,4,12,144.47,Credit Card
+1893,51,Female,133650,46,West,9,4,399.27,Credit Card
+1894,45,Male,79500,72,South,5,3,268.88,Credit Card
+1895,32,Male,104514,55,West,9,5,151.14,Credit Card
+1896,47,Male,76358,86,West,9,3,137.83,Digital Wallet
+1897,54,Male,86197,85,North,2,15,124.43,Debit Card
+1898,46,Male,120776,26,West,9,19,399.72,Cash
+1899,39,Female,112789,85,East,3,2,153.04,Cash
+1900,21,Female,112420,25,East,4,12,286.99,Cash
+1901,37,Female,52854,65,North,1,5,253.2,Cash
+1902,49,Female,96240,6,North,1,17,310.82,Credit Card
+1903,53,Female,124523,23,North,1,14,444.72,Digital Wallet
+1904,67,Female,149494,64,North,9,10,440.49,Digital Wallet
+1905,21,Male,110063,87,North,8,3,252.98,Cash
+1906,44,Female,36322,43,West,5,4,56.91,Cash
+1907,34,Female,133053,23,North,5,6,241.9,Debit Card
+1908,29,Male,26968,96,West,9,16,322.79,Debit Card
+1909,39,Male,47518,30,South,3,7,300.99,Debit Card
+1910,34,Female,71925,77,North,3,15,343.1,Credit Card
+1911,27,Male,79848,18,North,7,11,119.33,Digital Wallet
+1912,18,Female,131900,87,West,9,1,340.94,Credit Card
+1913,39,Male,113422,79,South,6,5,132.19,Credit Card
+1914,43,Female,21700,97,West,2,13,387.74,Digital Wallet
+1915,35,Male,113782,21,West,1,14,202.59,Debit Card
+1916,67,Male,121004,57,North,2,9,369.45,Digital Wallet
+1917,31,Female,43199,23,East,1,17,71.54,Cash
+1918,64,Female,64589,91,East,10,15,233.54,Debit Card
+1919,46,Female,52115,45,West,10,7,367.27,Digital Wallet
+1920,29,Female,81934,44,North,9,12,152.09,Credit Card
+1921,53,Female,136335,82,South,10,6,407.88,Digital Wallet
+1922,52,Male,140726,88,East,8,16,333.85,Debit Card
+1923,69,Female,74316,47,South,7,5,314.4,Cash
+1924,29,Female,25520,40,East,3,9,209.1,Credit Card
+1925,24,Male,129814,51,North,8,14,267.1,Cash
+1926,46,Male,56455,42,West,2,8,318.81,Cash
+1927,28,Female,135284,7,South,2,14,262.61,Credit Card
+1928,50,Male,106465,50,South,10,12,364.24,Digital Wallet
+1929,23,Male,143364,48,West,3,10,245.16,Digital Wallet
+1930,64,Female,61605,84,South,7,13,141.02,Cash
+1931,32,Male,34955,91,East,1,19,146.27,Digital Wallet
+1932,49,Male,64049,6,West,8,15,52.61,Debit Card
+1933,68,Female,33917,91,East,7,8,185.43,Cash
+1934,28,Female,90293,9,East,4,10,387.01,Cash
+1935,40,Male,98581,57,North,5,3,407.37,Cash
+1936,43,Male,139072,31,East,10,3,141.11,Debit Card
+1937,51,Female,84925,21,North,1,5,481.57,Cash
+1938,63,Male,127216,90,South,4,16,276.08,Digital Wallet
+1939,51,Male,90269,40,South,1,17,462.64,Digital Wallet
+1940,46,Male,50954,45,North,1,6,368.04,Digital Wallet
+1941,21,Female,116671,77,East,10,16,375.1,Digital Wallet
+1942,34,Male,92617,49,West,1,2,88.27,Cash
+1943,52,Male,61458,87,West,7,15,149.0,Debit Card
+1944,30,Female,109037,20,North,7,18,53.97,Credit Card
+1945,58,Male,41113,92,South,4,1,372.26,Digital Wallet
+1946,56,Male,119977,17,South,2,19,205.0,Credit Card
+1947,32,Female,132622,28,West,3,12,403.99,Credit Card
+1948,46,Female,145947,41,North,8,8,202.52,Cash
+1949,46,Female,110226,66,West,8,6,418.7,Digital Wallet
+1950,28,Female,63939,25,East,6,12,108.81,Digital Wallet
+1951,69,Male,49345,58,East,10,7,128.02,Digital Wallet
+1952,49,Male,144616,41,North,9,18,203.39,Credit Card
+1953,19,Female,66313,6,North,9,14,233.82,Digital Wallet
+1954,64,Female,130107,75,East,4,8,206.92,Digital Wallet
+1955,31,Male,141866,38,South,1,14,393.64,Debit Card
+1956,37,Female,112365,6,North,1,5,93.63,Cash
+1957,39,Male,120598,45,East,10,9,208.05,Digital Wallet
+1958,28,Female,89166,75,East,5,8,426.76,Digital Wallet
+1959,44,Male,67861,14,South,2,2,80.06,Cash
+1960,20,Female,117406,66,South,6,16,474.05,Cash
+1961,34,Female,69298,40,South,7,13,493.84,Credit Card
+1962,61,Male,67221,3,South,1,7,89.86,Credit Card
+1963,45,Female,64942,99,West,6,16,181.07,Credit Card
+1964,46,Male,23453,97,South,8,7,217.58,Cash
+1965,38,Male,122811,24,West,5,14,399.38,Debit Card
+1966,64,Male,74935,19,North,7,14,318.17,Digital Wallet
+1967,33,Male,142439,18,East,10,12,339.96,Cash
+1968,54,Male,63370,64,West,6,1,390.88,Debit Card
+1969,37,Female,123932,88,North,4,1,103.09,Cash
+1970,23,Female,28328,35,North,7,12,424.94,Debit Card
+1971,36,Male,35534,62,West,10,15,367.53,Cash
+1972,22,Female,105280,1,North,9,4,309.8,Cash
+1973,20,Male,104925,100,North,10,7,450.38,Debit Card
+1974,18,Female,56320,25,West,10,16,365.14,Debit Card
+1975,55,Female,69170,45,North,7,3,140.76,Debit Card
+1976,32,Female,120546,49,South,5,7,243.39,Debit Card
+1977,51,Female,100201,98,South,7,6,272.32,Debit Card
+1978,52,Male,148935,89,East,3,16,74.85,Debit Card
+1979,66,Male,141006,16,North,2,8,479.59,Debit Card
+1980,42,Female,123401,98,East,5,6,107.86,Debit Card
+1981,41,Female,28640,93,South,4,10,363.86,Cash
+1982,29,Male,120252,19,South,5,16,277.8,Debit Card
+1983,35,Female,111057,23,South,8,11,61.53,Debit Card
+1984,32,Male,50049,83,North,4,13,466.14,Cash
+1985,61,Male,25618,25,North,9,6,433.33,Cash
+1986,33,Male,122540,16,South,7,1,285.92,Credit Card
+1987,44,Female,76053,54,East,10,19,153.02,Credit Card
+1988,25,Male,21920,73,East,7,12,104.73,Debit Card
+1989,63,Female,63937,1,West,8,6,213.53,Debit Card
+1990,42,Male,89724,42,South,6,18,164.94,Credit Card
+1991,34,Female,32207,19,East,8,13,278.01,Credit Card
+1992,46,Female,85774,97,South,3,7,484.88,Digital Wallet
+1993,25,Female,52972,34,East,10,13,308.73,Digital Wallet
+1994,32,Male,30799,80,West,10,8,450.47,Debit Card
+1995,44,Male,91088,55,West,1,17,342.9,Digital Wallet
+1996,63,Female,48916,18,South,6,9,263.86,Credit Card
+1997,67,Female,90463,34,East,1,13,434.57,Debit Card
+1998,69,Female,113500,89,North,9,2,262.12,Cash
+1999,24,Male,96700,45,West,2,4,440.88,Cash
+2000,20,Male,57158,6,South,2,2,181.21,Credit Card
